@@ -1,0 +1,218 @@
+{"units":[
+{"u":91,"ex":[
+{"id":"91.1","t":"c","m":"Quick pick","ti":"each or every?","k":"each = individually, often a small number. every = all of a group, often a large number.","items":[
+{"s":"___ player in the team got a medal.","o":["Each","Every one"],"a":"Each"},
+{"s":"I check my email ___ morning.","o":["every","each of"],"a":"every"},
+{"s":"There's a lamp on ___ side of the bed.","o":["each","every"],"a":"each"},
+{"s":"___ of the children got a present.","o":["Each","Every"],"a":"Each"},
+{"s":"She calls her mum ___ day.","o":["every","each of"],"a":"every"},
+{"s":"The tickets cost ten euros ___ .","o":["each","every"],"a":"each"}]},
+{"id":"91.2","t":"g","m":"Type it","ti":"each / every / everyone","k":"Complete with each, every or everyone.","items":[
+{"s":"We had a great time. ___ enjoyed it.","a":["everyone","everybody"]},
+{"s":"The buses run ___ ten minutes.","a":["every"]},
+{"s":"The two brothers ___ have a car.","a":["each"]},
+{"s":"I've read ___ book in this series.","a":["every"]},
+{"s":"___ of us gave five euros.","a":["each"]},
+{"s":"Not ___ likes spicy food.","a":["everyone","everybody"]}]},
+{"id":"91.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"","u":"Every of","q":" the rooms has a TV.","a":["each of","every one of"]},
+{"p":"They ","u":"each","q":" have their own room."},
+{"p":"I see her ","u":"each day","q":" at work.","a":["every day"]},
+{"p":"","u":"Everyone","q":" was happy."},
+{"p":"","u":"Each students","q":" has a laptop.","a":["each student"]},
+{"p":"The shirts are 20 euros ","u":"each","q":"."}]}]},
+{"u":92,"ex":[
+{"id":"92.1","t":"g","m":"Type it","ti":"who or which?","k":"Use who for people and which for things (or that for both).","items":[
+{"s":"A dentist is a person ___ looks after your teeth.","a":["who","that"]},
+{"s":"This is the bus ___ goes to the airport.","a":["which","that"]},
+{"s":"I met a woman ___ speaks six languages.","a":["who","that"]},
+{"s":"Where's the cake ___ was on the table?","a":["which","that"]},
+{"s":"The man ___ lives next door is a pilot.","a":["who","that"]},
+{"s":"I need a phone ___ takes good photos.","a":["which","that"]}]},
+{"id":"92.2","t":"b","m":"Build it","ti":"Join the sentences","k":"Make one sentence with who/which/that.","items":[
+{"c":"A girl was hurt. She is in hospital.","h":"the girl / who / was / hurt / is / in hospital","a":"The girl who was hurt is in hospital.","x":["which","she"]},
+{"c":"I lost a watch. It was a present.","h":"the watch / that / I / lost / was / a present","a":"The watch that I lost was a present.","x":["who","it"]},
+{"c":"A man answered. He was very rude.","h":"the man / who / answered / was / very rude","a":"The man who answered was very rude.","x":["which","he"]},
+{"c":"A shop opened. It sells cheese.","h":"the shop / which / opened / sells / cheese","a":"The shop which opened sells cheese.","x":["who","it"]},
+{"c":"People work here. They are friendly.","h":"the people / who / work / here / are / friendly","a":"The people who work here are friendly.","x":["which","they"]}]},
+{"id":"92.3","t":"m","m":"Match up","ti":"Definitions","k":"Match the word with its definition.","items":[
+{"l":"A thief","r":"is someone who steals things."},
+{"l":"A fridge","r":"is a machine which keeps food cold."},
+{"l":"An orphan","r":"is a child whose parents are dead."},
+{"l":"A vegetarian","r":"is someone who doesn't eat meat."},
+{"l":"A dictionary","r":"is a book that explains words."},
+{"l":"A tourist","r":"is a person who travels for pleasure."}]}]},
+{"u":93,"ex":[
+{"id":"93.1","t":"c","m":"Quick pick","ti":"Do we need who/that?","k":"You can leave out who/that/which when it's the object of the clause.","items":[
+{"s":"The film ___ we saw was great. (Can you leave out the word?)","o":["yes, leave it out","no, keep it"],"a":"yes, leave it out"},
+{"s":"The man ___ called you is here. (Can you leave it out?)","o":["no, keep it","yes, leave it out"],"a":"no, keep it"},
+{"s":"Is this the book ___ you wanted? (Can you leave it out?)","o":["yes, leave it out","no, keep it"],"a":"yes, leave it out"},
+{"s":"The girl ___ won the race is my cousin. (Can you leave it out?)","o":["no, keep it","yes, leave it out"],"a":"no, keep it"},
+{"s":"The people ___ we met were nice. (Can you leave it out?)","o":["yes, leave it out","no, keep it"],"a":"yes, leave it out"},
+{"s":"The bus ___ goes to town is late. (Can you leave it out?)","o":["no, keep it","yes, leave it out"],"a":"no, keep it"}]},
+{"id":"93.2","t":"b","m":"Build it","ti":"Without who/that","k":"Build the sentence without a relative pronoun.","items":[
+{"h":"the cake / you / made / was / delicious","a":"The cake you made was delicious.","x":["it","who"]},
+{"h":"is / this / the key / you / lost?","a":"Is this the key you lost?","x":["it","who"]},
+{"h":"I / liked / the people / I / met","a":"I liked the people I met.","x":["them","which"]},
+{"h":"the hotel / we / stayed / at / was / cheap","a":"The hotel we stayed at was cheap.","x":["it","who"]},
+{"h":"what's / the name / of the song / you / were / singing?","a":"What's the name of the song you were singing?","x":["it","who"]}]},
+{"id":"93.3","t":"g","m":"Type it","ti":"Prepositions at the end","k":"Complete the sentence with the preposition.","items":[
+{"s":"The man I was talking ___ is my boss.","a":["to"]},
+{"s":"Is this the bag you were looking ___ ?","a":["for"]},
+{"s":"The house we live ___ is very old.","a":["in"]},
+{"s":"Who's the girl you were dancing ___ ?","a":["with"]},
+{"s":"The music she listens ___ is too loud.","a":["to"]},
+{"s":"That's the chair I sat ___ .","a":["on"]}]}]},
+{"u":94,"ex":[
+{"id":"94.1","t":"c","m":"Quick pick","ti":"whose, whom, where","k":"whose = possession. where = place. whom = formal object (who).","items":[
+{"s":"I met a man ___ son is a famous actor.","o":["whose","who's"],"a":"whose"},
+{"s":"This is the café ___ we first met.","o":["where","which"],"a":"where"},
+{"s":"The woman ___ car was stolen called the police.","o":["whose","who"],"a":"whose"},
+{"s":"To ___ should I send the letter?","o":["whom","who"],"a":"whom"},
+{"s":"Do you remember the day ___ we met?","o":["when","where"],"a":"when"},
+{"s":"That's the house ___ I was born.","o":["where","which"],"a":"where"}]},
+{"id":"94.2","t":"g","m":"Type it","ti":"Join them","k":"Complete with whose, where or when.","items":[
+{"s":"That's the boy ___ dog bit me.","a":["whose"]},
+{"s":"I'd love to visit the town ___ my grandmother grew up.","a":["where"]},
+{"s":"2020 was the year ___ everything changed.","a":["when"]},
+{"s":"She's the singer ___ songs are everywhere.","a":["whose"]},
+{"s":"This is the room ___ the meetings take place.","a":["where"]},
+{"s":"I remember the moment ___ I saw the sea.","a":["when"]}]},
+{"id":"94.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"The girl ","u":"who's","q":" bag was stolen is upset.","a":["whose"]},
+{"p":"This is the shop ","u":"where","q":" I bought my coat."},
+{"p":"The town ","u":"which","q":" I live is small.","a":["where","in which"]},
+{"p":"The man ","u":"whose","q":" car I borrowed is my uncle."},
+{"p":"I'll never forget the day ","u":"where","q":" we met.","a":["when","that"]},
+{"p":"The person ","u":"to whom","q":" I spoke was helpful."}]}]},
+{"u":95,"ex":[
+{"id":"95.1","t":"c","m":"Quick pick","ti":"Extra information","k":"Extra information clauses have commas and can't use that.","items":[
+{"s":"My brother, ___ lives in Spain, is a chef.","o":["who","that"],"a":"who"},
+{"s":"Paris, ___ is my favourite city, is very expensive.","o":["which","that"],"a":"which"},
+{"s":"Mrs Lee, ___ I've known for years, is moving away.","o":["whom","that"],"a":"whom"},
+{"s":"We stayed at the Ritz, ___ was amazing.","o":["which","that"],"a":"which"},
+{"s":"Kate, ___ husband is a doctor, works at the bank.","o":["whose","who"],"a":"whose"},
+{"s":"The Nile, ___ is the longest river in Africa, flows into the sea.","o":["which","that"],"a":"which"}]},
+{"id":"95.2","t":"b","m":"Build it","ti":"Add the information","k":"Build the sentence with an extra information clause.","items":[
+{"c":"Tom is a nurse. He's very kind.","h":"Tom, / who / is / a nurse, / is / very kind","a":"Tom, who is a nurse, is very kind.","x":["that","he"]},
+{"c":"Rome is very old. I visited it last year.","h":"Rome, / which / I / visited / last year, / is / very old","a":"Rome, which I visited last year, is very old.","x":["that","it"]},
+{"c":"My car is ten years old. It still runs well.","h":"my car, / which / is / ten years old, / still / runs well","a":"My car, which is ten years old, still runs well.","x":["that","it"]},
+{"c":"Ana is from Peru. Her English is perfect.","h":"Ana, / whose / English / is perfect, / is / from Peru","a":"Ana, whose English is perfect, is from Peru.","x":["who","her"]}]},
+{"id":"95.3","t":"c","m":"Quick pick","ti":"Comma or no comma?","k":"Decide if the sentence needs commas (extra information) or not (identifies which one).","items":[
+{"s":"The man ___ lives next door is a pilot.","o":["who (no commas)",", who (commas)"],"a":"who (no commas)"},
+{"s":"My father ___ is 70, still works.","o":[", who (commas)","who (no commas)"],"a":", who (commas)"},
+{"s":"The book ___ you lent me was great.","o":["that (no commas)",", which (commas)"],"a":"that (no commas)"},
+{"s":"London ___ is huge, has nine million people.","o":[", which (commas)","that (no commas)"],"a":", which (commas)"},
+{"s":"People ___ exercise live longer.","o":["who (no commas)",", who (commas)"],"a":"who (no commas)"},
+{"s":"Mount Fuji ___ is in Japan, is beautiful.","o":[", which (commas)","that (no commas)"],"a":", which (commas)"}]}]},
+{"u":96,"ex":[
+{"id":"96.1","t":"g","m":"Type it","ti":"most of which","k":"Use all of / most of / some of / none of + which/whom.","items":[
+{"s":"I have ten cousins, most of ___ live in Italy.","a":["whom"]},
+{"s":"She bought three dresses, none of ___ fitted her.","a":["which"]},
+{"s":"We met lots of people, some of ___ were very funny.","a":["whom"]},
+{"s":"He has five cars, two of ___ are red.","a":["which"]},
+{"s":"They asked many questions, all of ___ were difficult.","a":["which"]},
+{"s":"I have two sisters, both of ___ are doctors.","a":["whom"]}]},
+{"id":"96.2","t":"c","m":"Quick pick","ti":"which = the whole idea","k":"which can refer to the whole of the previous sentence.","items":[
+{"s":"She passed the exam, ___ surprised everyone.","o":["which","what"],"a":"which"},
+{"s":"It rained all day, ___ meant we stayed in.","o":["which","that"],"a":"which"},
+{"s":"He didn't call, ___ was strange.","o":["which","who"],"a":"which"},
+{"s":"The train was late, ___ annoyed me.","o":["which","what"],"a":"which"},
+{"s":"I lost my keys, ___ is typical of me.","o":["which","that"],"a":"which"},
+{"s":"They offered me the job, ___ I accepted.","o":["which","whom"],"a":"which"}]},
+{"id":"96.3","t":"b","m":"Build it","ti":"Join them","k":"Join with which or of which/whom.","items":[
+{"c":"I got a pay rise. That made me happy.","h":"I / got / a pay rise, / which / made / me / happy","a":"I got a pay rise, which made me happy.","x":["that","what"]},
+{"c":"She has two brothers. Both are older.","h":"she / has / two brothers, / both / of / whom / are / older","a":"She has two brothers, both of whom are older.","x":["who","them"]},
+{"c":"We saw three films. None was good.","h":"we / saw / three films, / none / of / which / was / good","a":"We saw three films, none of which was good.","x":["that","them"]},
+{"c":"He fell asleep in class. It was embarrassing.","h":"he / fell asleep / in class, / which / was / embarrassing","a":"He fell asleep in class, which was embarrassing.","x":["what","that"]}]}]},
+{"u":97,"ex":[
+{"id":"97.1","t":"b","m":"Build it","ti":"-ing and -ed clauses","k":"Make the sentence shorter with -ing or -ed.","items":[
+{"c":"The woman who is talking to Tom is my aunt.","h":"the woman / talking / to Tom / is / my aunt","a":"The woman talking to Tom is my aunt.","x":["who","talked"]},
+{"c":"The boy who was injured in the crash is OK.","h":"the boy / injured / in the crash / is / OK","a":"The boy injured in the crash is OK.","x":["was","injuring"]},
+{"c":"Cars that are made in Japan are reliable.","h":"cars / made / in Japan / are / reliable","a":"Cars made in Japan are reliable.","x":["that","making"]},
+{"c":"People who live here pay a lot of tax.","h":"people / living / here / pay / a lot of tax","a":"People living here pay a lot of tax.","x":["lived","who"]},
+{"c":"The letter that was sent yesterday arrived today.","h":"the letter / sent / yesterday / arrived / today","a":"The letter sent yesterday arrived today.","x":["sending","was"]}]},
+{"id":"97.2","t":"c","m":"Quick pick","ti":"-ing or -ed?","k":"-ing = active (doing it). -ed = passive (it was done to it).","items":[
+{"s":"The man ___ the bus was very careful.","o":["driving","driven"],"a":"driving"},
+{"s":"Most of the goods ___ here are exported.","o":["made","making"],"a":"made"},
+{"s":"I was woken by a dog ___ .","o":["barking","barked"],"a":"barking"},
+{"s":"The people ___ to the party were all friends.","o":["invited","inviting"],"a":"invited"},
+{"s":"There's a man ___ at the door.","o":["waiting","waited"],"a":"waiting"},
+{"s":"The road ___ the two towns is closed.","o":["joining","joined"],"a":"joining"}]},
+{"id":"97.3","t":"g","m":"Type it","ti":"There's somebody …","k":"Complete with -ing or past participle.","items":[
+{"s":"There's somebody ___ (stand) outside your house.","a":["standing"]},
+{"s":"Many of the people ___ (injure) were children.","a":["injured"]},
+{"s":"I found a wallet ___ (lie) on the street.","a":["lying"]},
+{"s":"Is there anything ___ (leave) in the fridge?","a":["left"]},
+{"s":"The money ___ (steal) was never found.","a":["stolen"]},
+{"s":"Anyone ___ (want) a ticket should call us.","a":["wanting"]}]}]},
+{"u":98,"ex":[
+{"id":"98.1","t":"c","m":"Quick pick","ti":"bored or boring?","k":"-ed = how you feel. -ing = what causes the feeling.","items":[
+{"s":"The film was really ___ .","o":["boring","bored"],"a":"boring"},
+{"s":"I was ___ , so I went home.","o":["bored","boring"],"a":"bored"},
+{"s":"It was an ___ day. I learned so much.","o":["interesting","interested"],"a":"interesting"},
+{"s":"Are you ___ in art?","o":["interested","interesting"],"a":"interested"},
+{"s":"The news was ___ . Nobody expected it.","o":["surprising","surprised"],"a":"surprising"},
+{"s":"I'm ___ . I've been working since six.","o":["exhausted","exhausting"],"a":"exhausted"},
+{"s":"The instructions were so ___ .","o":["confusing","confused"],"a":"confusing"},
+{"s":"She felt ___ when she fell over.","o":["embarrassed","embarrassing"],"a":"embarrassed"}]},
+{"id":"98.2","t":"g","m":"Type it","ti":"Make the adjective","k":"Complete with an -ing or -ed adjective from the verb in brackets.","items":[
+{"s":"That was a ___ (frighten) experience.","a":["frightening"]},
+{"s":"I'm ___ (excite) about the trip!","a":["excited"]},
+{"s":"His jokes are so ___ (annoy).","a":["annoying"]},
+{"s":"We were ___ (disappoint) with the hotel.","a":["disappointed"]},
+{"s":"The view from the top is ___ (amaze).","a":["amazing"]},
+{"s":"I was ___ (shock) by the price.","a":["shocked"]}]},
+{"id":"98.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined word OK? If not, correct it.","items":[
+{"p":"I'm ","u":"boring","q":". Let's do something!","a":["bored"]},
+{"p":"The lesson was ","u":"interesting","q":"."},
+{"p":"She was ","u":"surprising","q":" to see me.","a":["surprised"]},
+{"p":"That was a ","u":"tiring","q":" journey."},
+{"p":"I'm ","u":"interesting","q":" in history.","a":["interested"]},
+{"p":"The match was ","u":"excited","q":".","a":["exciting"]}]}]},
+{"u":99,"ex":[
+{"id":"99.1","t":"b","m":"Build it","ti":"Adjective order","k":"Put the adjectives in the right order: opinion, size, age, colour, origin, material.","items":[
+{"h":"a / lovely / old / Italian / house","a":"a lovely old Italian house","x":["the","an"]},
+{"h":"a / big / black / leather / bag","a":"a big black leather bag","x":["the","an"]},
+{"h":"a / beautiful / small / red / car","a":"a beautiful small red car","x":["the","an"]},
+{"h":"some / nice / long / blue / curtains","a":"some nice long blue curtains","x":["a","the"]},
+{"h":"an / expensive / new / Japanese / camera","a":"an expensive new Japanese camera","x":["a","the"]}]},
+{"id":"99.2","t":"c","m":"Quick pick","ti":"You look tired","k":"After look, feel, sound, taste, smell, seem, use an adjective (not an adverb).","items":[
+{"s":"You look ___ . Are you OK?","o":["tired","tiredly"],"a":"tired"},
+{"s":"This soup tastes ___ .","o":["good","well"],"a":"good"},
+{"s":"Your plan sounds ___ .","o":["interesting","interestingly"],"a":"interesting"},
+{"s":"I feel ___ today.","o":["happy","happily"],"a":"happy"},
+{"s":"The flowers smell ___ .","o":["lovely","lovelily"],"a":"lovely"},
+{"s":"He seemed ___ about the news.","o":["upset","upsetly"],"a":"upset"}]},
+{"id":"99.3","t":"g","m":"Type it","ti":"the first two …","k":"Complete with the correct order: the first two / the last three, etc.","items":[
+{"c":"days: first, two","s":"I loved ___ of the holiday.","a":["the first two days"]},
+{"c":"weeks: last, three","s":"It rained for ___ .","a":["the last three weeks"]},
+{"c":"chapters: next, two","s":"Read ___ for homework.","a":["the next two chapters"]},
+{"c":"people: first, ten","s":"___ get a free gift.","a":["the first ten people"]},
+{"c":"years: last, few","s":"Prices have risen in ___ .","a":["the last few years"]},
+{"c":"questions: first, five","s":"Answer ___ only.","a":["the first five questions"]}]}]},
+{"u":100,"ex":[
+{"id":"100.1","t":"c","m":"Quick pick","ti":"Adjective or adverb?","k":"Adjectives describe nouns. Adverbs describe verbs.","items":[
+{"s":"She's a ___ driver.","o":["careful","carefully"],"a":"careful"},
+{"s":"She drives ___ .","o":["carefully","careful"],"a":"carefully"},
+{"s":"Please speak ___ . The baby is sleeping.","o":["quietly","quiet"],"a":"quietly"},
+{"s":"It's a ___ room.","o":["quiet","quietly"],"a":"quiet"},
+{"s":"He answered the question ___ .","o":["correctly","correct"],"a":"correctly"},
+{"s":"I'm ___ sorry.","o":["really","real"],"a":"really"},
+{"s":"The test was ___ easy.","o":["surprisingly","surprising"],"a":"surprisingly"},
+{"s":"She smiled ___ .","o":["happily","happy"],"a":"happily"}]},
+{"id":"100.2","t":"g","m":"Type it","ti":"Make it an adverb","k":"Complete with the adverb form of the word in brackets.","items":[
+{"s":"He ran ___ (quick) to catch the bus.","a":["quickly"]},
+{"s":"She sings ___ (beautiful).","a":["beautifully"]},
+{"s":"Please drive ___ (safe).","a":["safely"]},
+{"s":"I ___ (complete) forgot your birthday!","a":["completely"]},
+{"s":"They waited ___ (patient).","a":["patiently"]},
+{"s":"He spoke ___ (angry).","a":["angrily"]}]},
+{"id":"100.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined word OK? If not, correct it.","items":[
+{"p":"She speaks English ","u":"perfect","q":".","a":["perfectly"]},
+{"p":"He's a ","u":"slow","q":" walker."},
+{"p":"Drive ","u":"careful","q":"!","a":["carefully"]},
+{"p":"I'm ","u":"terribly","q":" sorry."},
+{"p":"She was ","u":"serious","q":" injured.","a":["seriously"]},
+{"p":"The food smells ","u":"good","q":"."}]}]}
+]}

@@ -1,0 +1,223 @@
+{"units":[
+{"u":61,"ex":[
+{"id":"61.1","t":"c","m":"Quick pick","ti":"used to do or used to doing?","k":"used to do = past habit. be/get used to doing = it's normal / becoming normal for you.","items":[
+{"s":"I ___ live in Rome, but now I live in Oslo.","o":["used to","am used to"],"a":"used to"},
+{"s":"I'm used ___ in the cold now.","o":["to living","to live"],"a":"to living"},
+{"s":"She can't get used ___ on the left.","o":["to driving","to drive"],"a":"to driving"},
+{"s":"We ___ go fishing every summer.","o":["used to","were used to"],"a":"used to"},
+{"s":"He isn't used ___ a suit.","o":["to wearing","to wear"],"a":"to wearing"},
+{"s":"It took me months to ___ the noise.","o":["get used to","use to"],"a":"get used to"}]},
+{"id":"61.2","t":"g","m":"Type it","ti":"New life","k":"Ana moved from a village to a big city. Complete with be used to / get used to + -ing.","items":[
+{"s":"At first she ___ (not / used / live) with so much noise.","a":["was not used to living","wasn't used to living"]},
+{"s":"Now she ___ (used / take) the metro every day.","a":["is used to taking"]},
+{"s":"It took her a while to ___ (used / work) long hours.","a":["get used to working"]},
+{"s":"She'll never ___ (used / pay) so much for coffee!","a":["get used to paying"]},
+{"s":"She ___ (used / be) alone, so she's fine.","a":["is used to being"]},
+{"s":"She's slowly ___ (used / speak) English all day.","a":["getting used to speaking"]}]},
+{"id":"61.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"I'm used to ","u":"get","q":" up early.","a":["getting"]},
+{"p":"We ","u":"used to","q":" have a dog."},
+{"p":"She ","u":"is used to drive","q":" in snow.","a":["is used to driving"]},
+{"p":"Did you ","u":"use to","q":" play the piano?"},
+{"p":"I can't get used to ","u":"wear","q":" glasses.","a":["wearing"]},
+{"p":"He ","u":"use to","q":" work here.","a":["used to"]}]}]},
+{"u":62,"ex":[
+{"id":"62.1","t":"c","m":"Quick pick","ti":"Which preposition?","k":"Pick the preposition that goes with the verb, then -ing follows.","items":[
+{"s":"She succeeded ___ passing the exam.","o":["in","at"],"a":"in"},
+{"s":"I insist ___ paying for dinner.","o":["on","in"],"a":"on"},
+{"s":"He apologised ___ being rude.","o":["for","of"],"a":"for"},
+{"s":"They accused him ___ lying.","o":["of","for"],"a":"of"},
+{"s":"I'm looking forward ___ meeting you.","o":["to","for"],"a":"to"},
+{"s":"Nothing can stop me ___ going.","o":["from","of"],"a":"from"},
+{"s":"Thank you ___ inviting me.","o":["for","of"],"a":"for"},
+{"s":"She congratulated me ___ getting the job.","o":["on","for"],"a":"on"}]},
+{"id":"62.2","t":"g","m":"Type it","ti":"Verb + preposition + -ing","k":"Complete with a preposition and -ing.","items":[
+{"s":"I'm thinking ___ (buy) a new bike.","a":["of buying","about buying"]},
+{"s":"She dreams ___ (become) a pilot.","a":["of becoming","about becoming"]},
+{"s":"He was arrested ___ (steal) a car. (for)","a":["for stealing"]},
+{"s":"I object ___ (pay) so much.","a":["to paying"]},
+{"s":"They prevented us ___ (enter).","a":["from entering"]},
+{"s":"We blamed him ___ (break) it.","a":["for breaking"]}]},
+{"id":"62.3","t":"g","m":"Reported","ti":"Report it","k":"Report with a verb + preposition + -ing.","items":[
+{"c":"'I'm sorry I'm late.'","s":"She apologised ___ late.","a":["for being"]},
+{"c":"'You took my pen!'","s":"He accused me ___ his pen.","a":["of taking"]},
+{"c":"'Thanks for helping.'","s":"They thanked us ___ .","a":["for helping"]},
+{"c":"'Well done on passing!'","s":"He congratulated me ___ .","a":["on passing"]},
+{"c":"'I will pay. I insist.'","s":"She insisted ___ .","a":["on paying"]},
+{"c":"'It was your fault the car crashed.'","s":"They blamed him ___ the car.","a":["for crashing"]}]}]},
+{"u":63,"ex":[
+{"id":"63.1","t":"g","m":"Type it","ti":"Worth it?","k":"Use it's worth / it's not worth / there's no point in + -ing.","items":[
+{"s":"The museum is great. It's worth ___ (visit).","a":["visiting"]},
+{"s":"There's no point ___ (wait). The shop is closed.","a":["in waiting"]},
+{"s":"It's not worth ___ (repair) this old TV.","a":["repairing"]},
+{"s":"Is this film worth ___ (see)?","a":["seeing"]},
+{"s":"There's no point in ___ (argue) with him.","a":["arguing"]},
+{"s":"It's worth ___ (book) a table on Saturdays.","a":["booking"]}]},
+{"id":"63.2","t":"c","m":"Quick pick","ti":"have difficulty / spend time","k":"have trouble/difficulty + -ing. spend/waste time + -ing. a waste of time/money.","items":[
+{"s":"I had difficulty ___ the hotel.","o":["finding","to find"],"a":"finding"},
+{"s":"She spends hours ___ her phone.","o":["looking at","to look at"],"a":"looking at"},
+{"s":"Don't waste money ___ things you don't need.","o":["buying","to buy"],"a":"buying"},
+{"s":"Did you have any trouble ___ here?","o":["getting","to get"],"a":"getting"},
+{"s":"That film was a waste ___ time.","o":["of","for"],"a":"of"},
+{"s":"I spent the weekend ___ the garden.","o":["tidying","to tidy"],"a":"tidying"}]},
+{"id":"63.3","t":"g","m":"Type it","ti":"go + -ing","k":"Use go + -ing for activities (go swimming, go shopping).","items":[
+{"s":"Let's ___ (swim) in the lake.","a":["go swimming"]},
+{"s":"We ___ (ski) in the Alps last winter.","a":["went skiing"]},
+{"s":"How often do you ___ (shop) for food?","a":["go shopping"]},
+{"s":"I'd love to ___ (camp) this summer.","a":["go camping"]},
+{"s":"They've ___ (sail) for the weekend.","a":["gone sailing"]},
+{"s":"Do you want to ___ (run) with me tomorrow?","a":["go running"]}]}]},
+{"u":64,"ex":[
+{"id":"64.1","t":"c","m":"Quick pick","ti":"to, for or so that?","k":"to + verb = purpose. for + noun = purpose. so that + clause.","items":[
+{"s":"I went to the shop ___ buy bread.","o":["to","for"],"a":"to"},
+{"s":"I went to the shop ___ some bread.","o":["to","for"],"a":"for"},
+{"s":"She whispered ___ nobody could hear.","o":["so that","for"],"a":"so that"},
+{"s":"We need a knife ___ cutting the cake.","o":["for","to"],"a":"for"},
+{"s":"He left early ___ catch the train.","o":["to","for"],"a":"to"},
+{"s":"I'll write it down ___ I don't forget.","o":["so that","to"],"a":"so that"}]},
+{"id":"64.2","t":"g","m":"Type it","ti":"Why?","k":"Answer with to + verb.","items":[
+{"c":"Why did you go to the bank?","s":"___ (get) some money.","a":["to get"]},
+{"c":"Why are you saving?","s":"___ (buy) a car.","a":["to buy"]},
+{"c":"Why did she call?","s":"___ (say) thank you.","a":["to say"]},
+{"c":"Why do you study English?","s":"___ (get) a better job.","a":["to get"]},
+{"c":"Why did they stop?","s":"___ (look) at the map.","a":["to look"]},
+{"c":"Why are you up so early?","s":"___ (catch) the 6 o'clock train.","a":["to catch"]}]},
+{"id":"64.3","t":"b","m":"Build it","ti":"so that","k":"Build the sentence with so that.","items":[
+{"h":"speak / slowly / so that / they / can / understand","a":"Speak slowly so that they can understand.","x":["to","for"]},
+{"h":"I / left / early / so that / I / wouldn't / be / late","a":"I left early so that I wouldn't be late.","x":["to","won't"]},
+{"h":"she / wore / a hat / so that / nobody / would / recognise / her","a":"She wore a hat so that nobody would recognise her.","x":["for","will"]},
+{"h":"we / whispered / so that / we / didn't / wake / the baby","a":"We whispered so that we didn't wake the baby.","x":["to","for"]},
+{"h":"give / me / your number / so that / I / can / call / you","a":"Give me your number so that I can call you.","x":["for","to"]}]}]},
+{"u":65,"ex":[
+{"id":"65.1","t":"g","m":"Type it","ti":"easy to do","k":"Rewrite with adjective + to + verb.","items":[
+{"c":"Understanding him is difficult.","s":"He is difficult ___ .","a":["to understand"]},
+{"c":"Using this app is easy.","s":"This app is easy ___ .","a":["to use"]},
+{"c":"It's impossible to open this box.","s":"This box is impossible ___ .","a":["to open"]},
+{"c":"Talking to her is nice.","s":"She is nice ___ to.","a":["to talk"]},
+{"c":"It's hard to find a flat here.","s":"Flats are hard ___ here.","a":["to find"]},
+{"c":"Driving this car is dangerous.","s":"This car is dangerous ___ .","a":["to drive"]}]},
+{"id":"65.2","t":"c","m":"Quick pick","ti":"the first to …","k":"the first/last/next/only + to + verb.","items":[
+{"s":"She was the first person ___ .","o":["to arrive","arriving"],"a":"to arrive"},
+{"s":"He's the only one ___ the answer.","o":["to know","knowing to"],"a":"to know"},
+{"s":"Who was the last ___ the office?","o":["to leave","leaving to"],"a":"to leave"},
+{"s":"It's nice ___ you again.","o":["to see","seeing to"],"a":"to see"},
+{"s":"I was surprised ___ her there.","o":["to see","for seeing"],"a":"to see"},
+{"s":"She's sure ___ the exam.","o":["to pass","passing"],"a":"to pass"}]},
+{"id":"65.3","t":"g","m":"Type it","ti":"It's kind of you to …","k":"Use It's + adjective + of + person + to + verb.","items":[
+{"s":"Thanks for the lift. It was kind ___ me home.","a":["of you to drive","of you to take"]},
+{"s":"It was silly ___ my keys at home. (me / leave)","a":["of me to leave"]},
+{"s":"It was nice ___ help. (them / offer)","a":["of them to offer"]},
+{"s":"It's careless ___ the door open. (him / leave)","a":["of him to leave"]},
+{"s":"It was generous ___ for dinner. (her / pay)","a":["of her to pay"]},
+{"s":"It was brave ___ the truth. (you / tell)","a":["of you to tell"]}]}]},
+{"u":66,"ex":[
+{"id":"66.1","t":"c","m":"Quick pick","ti":"afraid to / afraid of","k":"afraid to do = you don't do it because it's dangerous. afraid of doing = something might happen by accident.","items":[
+{"s":"I was afraid ___ the dog in case it bit me.","o":["to touch","of touching"],"a":"to touch"},
+{"s":"I'm afraid ___ on the ice.","o":["of slipping","to slip"],"a":"of slipping"},
+{"s":"She was afraid ___ the boss for a day off.","o":["to ask","of asking"],"a":"to ask"},
+{"s":"I'm afraid ___ the train.","o":["of missing","to miss"],"a":"of missing"},
+{"s":"He's interested ___ photography.","o":["in","to"],"a":"in"},
+{"s":"I'm sorry ___ you, but you've failed.","o":["to tell","for telling"],"a":"to tell"}]},
+{"id":"66.2","t":"g","m":"Type it","ti":"sorry to / sorry for","k":"Complete with to + verb or for + -ing.","items":[
+{"s":"I'm sorry ___ (hear) about your accident.","a":["to hear"]},
+{"s":"I'm sorry ___ (shout) at you yesterday.","a":["for shouting"]},
+{"s":"Sorry ___ (bother) you, but can I ask a question?","a":["to bother"]},
+{"s":"She was sorry ___ (miss) your party.","a":["to miss","for missing"]},
+{"s":"I'm interested ___ (hear) your opinion.","a":["to hear","in hearing"]},
+{"s":"He's afraid ___ (lose) his job.","a":["of losing"]}]},
+{"id":"66.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"I'm interested ","u":"to learn","q":" Spanish.","a":["in learning"]},
+{"p":"She's afraid ","u":"of flying","q":"."},
+{"p":"I'm sorry ","u":"for to be","q":" late.","a":["for being","to be"]},
+{"p":"We were sorry ","u":"to hear","q":" the news."},
+{"p":"He was afraid ","u":"of to ask","q":" for help.","a":["to ask"]},
+{"p":"I'm interested ","u":"in hearing","q":" more."}]}]},
+{"u":67,"ex":[
+{"id":"67.1","t":"c","m":"Quick pick","ti":"see somebody do / doing","k":"see someone do = the whole action. see someone doing = in the middle of it.","items":[
+{"s":"I saw him ___ the road and get into a taxi.","o":["cross","crossing"],"a":"cross"},
+{"s":"When I looked out, I saw the kids ___ in the garden.","o":["play","playing"],"a":"playing"},
+{"s":"Did you hear someone ___ ? Listen, there it is again.","o":["knocking","knock"],"a":"knocking"},
+{"s":"I watched her ___ the whole cake!","o":["eat","eating"],"a":"eat"},
+{"s":"I can smell something ___ .","o":["burning","burn"],"a":"burning"},
+{"s":"We heard the bomb ___ .","o":["explode","exploding"],"a":"explode"}]},
+{"id":"67.2","t":"g","m":"Type it","ti":"What did they see?","k":"Complete with the verb (no to) or -ing.","items":[
+{"s":"I saw a man ___ (run) down the street, so I followed him.","a":["running"]},
+{"s":"Did you see Tom ___ (fall) off his bike? It was so funny.","a":["fall"]},
+{"s":"I heard someone ___ (sing) in the shower.","a":["singing"]},
+{"s":"We watched the sun ___ (go) down.","a":["go","going"]},
+{"s":"I felt something ___ (crawl) up my leg!","a":["crawling"]},
+{"s":"She heard the door ___ (close).","a":["close"]}]},
+{"id":"67.3","t":"b","m":"Build it","ti":"I noticed …","k":"Build the sentence.","items":[
+{"h":"I / noticed / someone / watching / us","a":"I noticed someone watching us.","x":["to","watched"]},
+{"h":"did / you / see / her / leave?","a":"Did you see her leave?","x":["to","left?"]},
+{"h":"I / heard / you / come / in","a":"I heard you come in.","x":["to","came"]},
+{"h":"we / saw / them / playing / football","a":"We saw them playing football.","x":["to","played"]},
+{"h":"can / you / smell / gas / leaking?","a":"Can you smell gas leaking?","x":["to","leaked?"]}]}]},
+{"u":68,"ex":[
+{"id":"68.1","t":"b","m":"Build it","ti":"-ing clauses","k":"Join the two ideas with an -ing clause.","items":[
+{"c":"She hurt her back. She was carrying boxes.","h":"she / hurt / her back / carrying / boxes","a":"She hurt her back carrying boxes.","x":["was","carried"]},
+{"c":"He sat on the sofa. He watched TV.","h":"he / sat / on the sofa / watching / TV","a":"He sat on the sofa watching TV.","x":["and","watched"]},
+{"c":"I was walking home. I saw an accident.","h":"walking / home / I / saw / an accident","a":"Walking home, I saw an accident.","x":["was","walked"]},
+{"c":"She opened the letter. She smiled.","h":"opening / the letter / she / smiled","a":"Opening the letter, she smiled.","x":["opened","was"]},
+{"c":"I was tired, so I went to bed.","h":"feeling / tired / I / went / to bed","a":"Feeling tired, I went to bed.","x":["felt","was"]}]},
+{"id":"68.2","t":"g","m":"Type it","ti":"Having done","k":"Use having + past participle when one action finished before the next.","items":[
+{"s":"___ (finish) her work, she went home.","a":["having finished"]},
+{"s":"___ (lose) his keys, he couldn't get in.","a":["having lost"]},
+{"s":"___ (spend) all our money, we went home.","a":["having spent"]},
+{"s":"___ (not / know) the way, I asked for help.","a":["not knowing"]},
+{"s":"___ (live) abroad for years, she speaks four languages.","a":["having lived"]},
+{"s":"___ (see) the film before, I didn't want to go.","a":["having seen"]}]},
+{"id":"68.3","t":"c","m":"Quick pick","ti":"Which -ing?","k":"Pick the best form.","items":[
+{"s":"I cut my finger ___ vegetables.","o":["chopping","chopped"],"a":"chopping"},
+{"s":"___ the answer, she put up her hand.","o":["Knowing","Known"],"a":"Knowing"},
+{"s":"___ dinner, we went for a walk.","o":["Having eaten","Eating had"],"a":"Having eaten"},
+{"s":"He spent the day ___ in bed.","o":["lying","lain"],"a":"lying"},
+{"s":"Be careful ___ the road.","o":["crossing","crossed"],"a":"crossing"},
+{"s":"___ not hungry, I skipped lunch.","o":["Being","Been"],"a":"Being"}]}]},
+{"u":69,"ex":[
+{"id":"69.1","t":"c","m":"Quick pick","ti":"Countable or uncountable?","k":"Pick the correct form.","items":[
+{"s":"Can I give you some ___ ?","o":["advice","advices"],"a":"advice"},
+{"s":"We need ___ new chairs.","o":["some","a"],"a":"some"},
+{"s":"I've got ___ information for you.","o":["some","an"],"a":"some"},
+{"s":"Have you got ___ umbrella?","o":["an","some"],"a":"an"},
+{"s":"The ___ is terrible today.","o":["weather","weathers"],"a":"weather"},
+{"s":"She's looking for ___ .","o":["a job","a work"],"a":"a job"},
+{"s":"I love this ___ .","o":["music","musics"],"a":"music"},
+{"s":"There are too many ___ in this room.","o":["furnitures","chairs"],"a":"chairs"}]},
+{"id":"69.2","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"I'd like ","u":"an information","q":" about trains.","a":["some information"]},
+{"p":"We had ","u":"a lovely time","q":" at the beach."},
+{"p":"He gave me ","u":"a good advice","q":".","a":["some good advice","good advice"]},
+{"p":"There's ","u":"a lot of traffic","q":" today."},
+{"p":"I need to buy ","u":"a bread","q":".","a":["some bread","bread"]},
+{"p":"My luggage ","u":"are","q":" very heavy.","a":["is"]}]},
+{"id":"69.3","t":"g","m":"Type it","ti":"a or some?","k":"Complete with a/an or some.","items":[
+{"s":"I heard ___ strange noise last night.","a":["a"]},
+{"s":"Would you like ___ coffee?","a":["some"]},
+{"s":"Could you give me ___ help with these bags?","a":["some"]},
+{"s":"I need ___ envelope for this letter.","a":["an"]},
+{"s":"I bought ___ new furniture.","a":["some"]},
+{"s":"He's got ___ interesting job.","a":["an"]}]}]},
+{"u":70,"ex":[
+{"id":"70.1","t":"c","m":"Quick pick","ti":"a coffee or coffee?","k":"Some nouns can be countable or uncountable with different meanings.","items":[
+{"s":"I'd like ___ coffee, please. (one cup)","o":["a","some"],"a":"a"},
+{"s":"Don't drink too much ___ before bed.","o":["coffee","a coffee"],"a":"coffee"},
+{"s":"There's ___ hair in my soup!","o":["a","some"],"a":"a"},
+{"s":"I don't have ___ to read the paper.","o":["time","a time"],"a":"time"},
+{"s":"We had ___ great time in Rome.","o":["a","some"],"a":"a"},
+{"s":"This bowl is made of ___ .","o":["glass","a glass"],"a":"glass"}]},
+{"id":"70.2","t":"g","m":"Type it","ti":"Pieces of things","k":"Make uncountable nouns countable: a piece of, a bar of, a loaf of, etc.","b":["bar","bottle","loaf","piece","slice","cup"],"items":[
+{"s":"Can I have a ___ of cake?","a":["piece","slice"]},
+{"s":"I bought a ___ of bread.","a":["loaf"]},
+{"s":"She gave me a ___ of chocolate.","a":["bar"]},
+{"s":"Let me give you a ___ of advice.","a":["piece"]},
+{"s":"We drank a ___ of water each.","a":["bottle","cup"]},
+{"s":"Would you like a ___ of tea?","a":["cup"]}]},
+{"id":"70.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"I've got ","u":"a news","q":" for you.","a":["some news","news"]},
+{"p":"The news ","u":"is","q":" very good."},
+{"p":"We made ","u":"a progress","q":" this week.","a":["some progress","progress"]},
+{"p":"Can I have ","u":"a glass","q":" of water?"},
+{"p":"Her ","u":"hairs are","q":" long and dark.","a":["hair is"]},
+{"p":"I had ","u":"a bad experience","q":" in that hotel."}]}]}
+]}

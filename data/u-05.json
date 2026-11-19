@@ -1,0 +1,222 @@
+{"units":[
+{"u":41,"ex":[
+{"id":"41.1","t":"c","m":"Quick pick","ti":"wish + past, would or had done","k":"wish + past = now. wish + had done = the past. wish + would = you want someone/something to change.","items":[
+{"s":"I wish I ___ taller.","o":["was","would be"],"a":"was"},
+{"s":"I wish you ___ shouting at me!","o":["would stop","stopped"],"a":"would stop"},
+{"s":"I wish I ___ that dress yesterday. Now it's sold out.","o":["bought","had bought"],"a":"had bought"},
+{"s":"I wish I ___ how to fix this.","o":["knew","would know"],"a":"knew"},
+{"s":"I wish the bus ___ come. I'm freezing.","o":["would","will"],"a":"would"},
+{"s":"I wish we ___ more time last weekend.","o":["had","had had"],"a":"had had"}]},
+{"id":"41.2","t":"g","m":"Wishes","ti":"Make a wish","k":"Write a wish about each situation.","items":[
+{"c":"You can't drive.","s":"I wish I ___ drive.","a":["could"]},
+{"c":"You went to bed late last night.","s":"I wish I ___ to bed earlier.","a":["had gone"]},
+{"c":"Your friend never listens.","s":"I wish you ___ to me.","a":["would listen"]},
+{"c":"You don't have a garden.","s":"I wish I ___ a garden.","a":["had"]},
+{"c":"You spent all your money.","s":"I wish I ___ all my money.","a":["had not spent","hadn't spent"]},
+{"c":"It's Monday tomorrow.","s":"I wish it ___ Friday.","a":["was","were"]}]},
+{"id":"41.3","t":"g","m":"Type it","ti":"wish or hope?","k":"hope = something possible. wish = something unreal or a formal wish. Complete the sentence.","items":[
+{"s":"I ___ you have a great holiday!","a":["hope"]},
+{"s":"We ___ you a merry Christmas.","a":["wish"]},
+{"s":"I ___ I could speak Japanese.","a":["wish"]},
+{"s":"I ___ it doesn't rain tomorrow.","a":["hope"]},
+{"s":"She ___ she had more friends.","a":["wishes"]},
+{"s":"We ___ to see you soon.","a":["hope"]}]}]},
+{"u":42,"ex":[
+{"id":"42.1","t":"g","m":"Type it","ti":"is done / was done","k":"Put the verb into the passive: present simple or past simple.","items":[
+{"s":"English ___ (speak) in many countries.","a":["is spoken"]},
+{"s":"This bridge ___ (build) in 1890.","a":["was built"]},
+{"s":"The rooms ___ (clean) every day.","a":["are cleaned"]},
+{"s":"My bike ___ (steal) last night.","a":["was stolen"]},
+{"s":"How many people ___ (invite) to the wedding?","a":["were invited"]},
+{"s":"Coffee ___ (grow) in Brazil.","a":["is grown"]},
+{"s":"The match ___ (not / play) because of the rain.","a":["was not played","wasn't played"]},
+{"s":"When ___ (the telephone / invent)?","a":["was the telephone invented"]}]},
+{"id":"42.2","t":"c","m":"Quick pick","ti":"Active or passive?","k":"Pick the correct form.","items":[
+{"s":"The window ___ by a ball.","o":["broke","was broken"],"a":"was broken"},
+{"s":"Someone ___ my phone!","o":["has taken","has been taken"],"a":"has taken"},
+{"s":"Paper ___ from wood.","o":["makes","is made"],"a":"is made"},
+{"s":"Leo ___ to a party last week.","o":["invited","was invited"],"a":"was invited"},
+{"s":"Who ___ this picture?","o":["painted","was painted"],"a":"painted"},
+{"s":"The letters ___ every morning.","o":["deliver","are delivered"],"a":"are delivered"}]},
+{"id":"42.3","t":"b","m":"Build it","ti":"Turn it around","k":"Make a passive sentence with the same meaning.","items":[
+{"c":"They grow rice in China.","h":"rice / is / grown / in China","a":"Rice is grown in China.","x":["grows","was"]},
+{"c":"Somebody cleaned the car.","h":"the car / was / cleaned","a":"The car was cleaned.","x":["is","clean"]},
+{"c":"They don't use this room.","h":"this room / isn't / used","a":"This room isn't used.","x":["doesn't","use"]},
+{"c":"Did someone check your bag?","h":"was / your bag / checked?","a":"Was your bag checked?","x":["Did","check"]},
+{"c":"People make cheese from milk.","h":"cheese / is / made / from milk","a":"Cheese is made from milk.","x":["makes","are"]}]}]},
+{"u":43,"ex":[
+{"id":"43.1","t":"g","m":"Type it","ti":"be done / been done","k":"Complete with a passive form: will be done, can be done, has been done, etc.","items":[
+{"s":"The results ___ (announce) tomorrow.","a":["will be announced"]},
+{"s":"This problem ___ (can / solve) easily.","a":["can be solved"]},
+{"s":"Your car ___ (repair). You can collect it.","a":["has been repaired"]},
+{"s":"The room ___ (must / clean) before the guests arrive.","a":["must be cleaned"]},
+{"s":"Have the tickets ___ (send) yet?","a":["been sent"]},
+{"s":"The house ___ (should / paint) next year.","a":["should be painted"]}]},
+{"id":"43.2","t":"g","m":"Type it","ti":"being done","k":"Use the present continuous passive (is being done) for something happening now.","items":[
+{"s":"We can't use the lift. It ___ (repair).","a":["is being repaired"]},
+{"s":"The road is closed. It ___ (resurface).","a":["is being resurfaced"]},
+{"s":"I think we ___ (follow).","a":["are being followed"]},
+{"s":"A new school ___ (build) in our street.","a":["is being built"]},
+{"s":"The match ___ (show) live on TV right now.","a":["is being shown"]},
+{"s":"Sorry, your room ___ (still / clean).","a":["is still being cleaned"]}]},
+{"id":"43.3","t":"c","m":"Quick pick","ti":"-ing or being done?","k":"After some verbs and prepositions, use -ing. If it's passive, use being + past participle.","items":[
+{"s":"I don't like ___ what to do.","o":["telling","being told"],"a":"being told"},
+{"s":"She hates ___ photos of herself.","o":["taking","being taken"],"a":"taking"},
+{"s":"He's afraid of ___ alone at night.","o":["leaving","being left"],"a":"being left"},
+{"s":"I remember ___ to the zoo as a child.","o":["taking","being taken"],"a":"being taken"},
+{"s":"She enjoys ___ people new things.","o":["teaching","being taught"],"a":"teaching"},
+{"s":"Nobody likes ___ at.","o":["laughing","being laughed"],"a":"being laughed"}]}]},
+{"u":44,"ex":[
+{"id":"44.1","t":"b","m":"Build it","ti":"I was given …","k":"Some verbs (give, send, offer, tell) can have a person as the passive subject. Build it.","items":[
+{"c":"They gave me a present.","h":"I / was / given / a present","a":"I was given a present.","x":["gave","is"]},
+{"c":"Someone offered her a job.","h":"she / was / offered / a job","a":"She was offered a job.","x":["offer","is"]},
+{"c":"Nobody told us about the change.","h":"we / weren't / told / about the change","a":"We weren't told about the change.","x":["didn't","tell"]},
+{"c":"They will send you an email.","h":"you / will / be / sent / an email","a":"You will be sent an email.","x":["send","are"]},
+{"c":"They paid him 500 euros.","h":"he / was / paid / 500 euros","a":"He was paid 500 euros.","x":["pay","is"]}]},
+{"id":"44.2","t":"g","m":"Type it","ti":"born and get","k":"Use was/were born. Use get + past participle for things that happen (get married, get hurt).","items":[
+{"s":"Where ___ (you / born)?","a":["were you born"]},
+{"s":"My grandmother ___ (born) in 1950.","a":["was born"]},
+{"s":"Be careful. You'll ___ (hurt).","a":["get hurt"]},
+{"s":"They ___ (married) last summer.","a":["got married"]},
+{"s":"Our car ___ (damage) in the storm.","a":["got damaged","was damaged"]},
+{"s":"I ___ (pay) at the end of the month.","a":["get paid","am paid"]}]},
+{"id":"44.3","t":"c","m":"Quick pick","ti":"Which passive?","k":"Pick the correct passive form.","items":[
+{"s":"The winner will ___ next week.","o":["be chosen","chosen"],"a":"be chosen"},
+{"s":"I ___ to a wedding in May.","o":["have been invited","have invited"],"a":"have been invited"},
+{"s":"Was your bike ___ ?","o":["stolen","stole"],"a":"stolen"},
+{"s":"Nobody ___ in the accident.","o":["was hurt","hurt"],"a":"was hurt"},
+{"s":"He ___ the job, but he said no.","o":["was offered","offered"],"a":"was offered"},
+{"s":"This song ___ on the radio all the time.","o":["is played","plays"],"a":"is played"}]}]},
+{"u":45,"ex":[
+{"id":"45.1","t":"b","m":"Build it","ti":"He is said to …","k":"Rewrite with be said / believed / thought to … .","items":[
+{"c":"People say that he is very rich.","h":"he / is / said / to be / very rich","a":"He is said to be very rich.","x":["says","being"]},
+{"c":"People believe that the house is haunted.","h":"the house / is / believed / to be / haunted","a":"The house is believed to be haunted.","x":["believes","being"]},
+{"c":"People think the thief escaped by car.","h":"the thief / is / thought / to have escaped / by car","a":"The thief is thought to have escaped by car.","x":["thinks","escape"]},
+{"c":"They say she speaks six languages.","h":"she / is / said / to speak / six languages","a":"She is said to speak six languages.","x":["says","speaking"]},
+{"c":"People expect that prices will rise.","h":"prices / are / expected / to rise","a":"Prices are expected to rise.","x":["expect","rising"]}]},
+{"id":"45.2","t":"g","m":"Type it","ti":"It is said that …","k":"Complete with It is said / believed / reported that … or be said to.","items":[
+{"s":"It ___ (say) that the castle has a secret tunnel.","a":["is said"]},
+{"s":"The president ___ (believe) to be in hospital.","a":["is believed"]},
+{"s":"It ___ (report) that two people were injured.","a":["is reported","was reported"]},
+{"s":"Eating carrots ___ (say) to be good for your eyes.","a":["is said"]},
+{"s":"The fire ___ (think) to have started in the kitchen.","a":["is thought"]},
+{"s":"It ___ (expect) that the weather will improve.","a":["is expected"]}]},
+{"id":"45.3","t":"c","m":"Quick pick","ti":"supposed to","k":"be supposed to = it's said, or it's the plan/rule (but maybe not happening).","items":[
+{"s":"This restaurant ___ be very good. Let's try it.","o":["is supposed to","supposes to"],"a":"is supposed to"},
+{"s":"You ___ park here. It's for staff only.","o":["aren't supposed to","don't suppose to"],"a":"aren't supposed to"},
+{"s":"The train ___ arrive at 10, but it's late.","o":["was supposed to","supposed to"],"a":"was supposed to"},
+{"s":"What ___ do now? I don't understand.","o":["am I supposed to","I am supposed"],"a":"am I supposed to"},
+{"s":"She ___ be on a diet, but she's eating cake!","o":["is supposed to","has supposed to"],"a":"is supposed to"},
+{"s":"We ___ to wear jeans at work, but some people do.","o":["aren't supposed","don't supposed"],"a":"aren't supposed"}]}]},
+{"u":46,"ex":[
+{"id":"46.1","t":"g","m":"Picture this","ti":"Getting things done","k":"Say what they had done by someone else. Use have something done.","items":[
+{"pi":"💇","s":"Ella ___ (her hair / cut) yesterday.","a":["had her hair cut"]},
+{"pi":"🚗","s":"We're ___ (our car / repair) this week.","a":["having our car repaired"]},
+{"pi":"🏠","s":"They ___ (their house / paint) last summer.","a":["had their house painted"]},
+{"pi":"👀","s":"I need to ___ (my eyes / test).","a":["have my eyes tested"]},
+{"pi":"🍕","s":"Let's ___ (a pizza / deliver).","a":["have a pizza delivered"]},
+{"pi":"🔑","s":"I ___ (a new key / make) for the back door.","a":["had a new key made"]}]},
+{"id":"46.2","t":"c","m":"Quick pick","ti":"Did it yourself?","k":"Did they do it themselves, or did someone else do it?","items":[
+{"s":"I can't cut my own hair, so I ___ every month.","o":["have it cut","cut it"],"a":"have it cut"},
+{"s":"Tom is a mechanic, so he ___ himself.","o":["repairs his car","has his car repaired"],"a":"repairs his car"},
+{"s":"Our roof was damaged, so we ___ .","o":["had it fixed","fixed it had"],"a":"had it fixed"},
+{"s":"She ___ yesterday. She looks great!","o":["had her nails done","has done her nails had"],"a":"had her nails done"},
+{"s":"Where do you ___ ? At the dry cleaner's?","o":["have your suits cleaned","have cleaned your suits"],"a":"have your suits cleaned"},
+{"s":"I ___ myself. It only took an hour.","o":["painted the room","had the room painted"],"a":"painted the room"}]},
+{"id":"46.3","t":"g","m":"Type it","ti":"Bad things that happened","k":"have something done can also mean something bad happened to you.","items":[
+{"s":"Paul ___ (his bike / steal) last week.","a":["had his bike stolen"]},
+{"s":"She ___ (her bag / snatch) on the bus.","a":["had her bag snatched"]},
+{"s":"We ___ (our flight / cancel) at the last minute.","a":["had our flight cancelled"]},
+{"s":"He ___ (his nose / break) playing rugby.","a":["had his nose broken"]},
+{"s":"I ___ (my phone / take) from my pocket.","a":["had my phone taken"]},
+{"s":"They ___ (their windows / smash) during the storm.","a":["had their windows smashed"]}]}]},
+{"u":47,"ex":[
+{"id":"47.1","t":"g","m":"Reported","ti":"What did they say?","k":"Report what people said. Move the tense back.","items":[
+{"c":"Kim: 'I'm tired.'","s":"Kim said she ___ tired.","a":["was"]},
+{"c":"Tom: 'I live in Leeds.'","s":"Tom said he ___ in Leeds.","a":["lived"]},
+{"c":"Ana: 'I've lost my keys.'","s":"Ana said she ___ her keys.","a":["had lost"]},
+{"c":"Max: 'I can't swim.'","s":"Max said he ___ swim.","a":["could not","couldn't"]},
+{"c":"Jo: 'I'll call you.'","s":"Jo said she ___ me.","a":["would call"]},
+{"c":"Ben: 'I'm working late.'","s":"Ben said he ___ late.","a":["was working"]},
+{"c":"Lisa: 'I saw the film.'","s":"Lisa said she ___ the film.","a":["had seen","saw"]},
+{"c":"Sam: 'I don't like fish.'","s":"Sam said he ___ fish.","a":["did not like","didn't like"]}]},
+{"id":"47.2","t":"c","m":"Quick pick","ti":"say or tell?","k":"tell + person. say + (to person).","items":[
+{"s":"She ___ me she was busy.","o":["told","said"],"a":"told"},
+{"s":"He ___ that he would come.","o":["told","said"],"a":"said"},
+{"s":"What did you ___ to her?","o":["tell","say"],"a":"say"},
+{"s":"Can you ___ me the time?","o":["tell","say"],"a":"tell"},
+{"s":"They ___ us a funny story.","o":["told","said"],"a":"told"},
+{"s":"Don't ___ anything to Mum!","o":["tell","say"],"a":"say"}]},
+{"id":"47.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"He ","u":"said me","q":" he was ill.","a":["told me","said"]},
+{"p":"She told me she ","u":"was","q":" hungry."},
+{"p":"They said they ","u":"will","q":" come later.","a":["would"]},
+{"p":"Mark ","u":"told","q":" that he liked the film.","a":["said"]},
+{"p":"I told him I ","u":"had finished","q":" the work."},
+{"p":"She said she ","u":"can","q":" drive.","a":["could"]}]}]},
+{"u":48,"ex":[
+{"id":"48.1","t":"g","m":"Reported","ti":"Reporting questions","k":"Report the question. Use normal word order and no question mark.","items":[
+{"c":"'Where do you live?'","s":"She asked me where ___ .","a":["i lived"]},
+{"c":"'Are you hungry?'","s":"He asked if ___ hungry.","a":["i was"]},
+{"c":"'What time is it?'","s":"I asked what time ___ .","a":["it was"]},
+{"c":"'Have you finished?'","s":"She asked whether I ___ .","a":["had finished"]},
+{"c":"'Can you help me?'","s":"He asked if I ___ him.","a":["could help"]},
+{"c":"'Why did you leave?'","s":"They asked me why ___ .","a":["i had left","i left"]}]},
+{"id":"48.2","t":"g","m":"Reported","ti":"Orders and requests","k":"Report with tell/ask + person + (not) to + verb.","items":[
+{"c":"Teacher: 'Sit down.'","s":"The teacher told us ___ down.","a":["to sit"]},
+{"c":"Mum: 'Don't be late.'","s":"Mum told me ___ late.","a":["not to be"]},
+{"c":"Ana: 'Please call me.'","s":"Ana asked me ___ her.","a":["to call"]},
+{"c":"Doctor: 'Don't eat sugar.'","s":"The doctor told him ___ sugar.","a":["not to eat"]},
+{"c":"Boss: 'Finish the report.'","s":"My boss told me ___ the report.","a":["to finish"]},
+{"c":"Tom: 'Please don't tell anyone.'","s":"Tom asked us ___ anyone.","a":["not to tell"]}]},
+{"id":"48.3","t":"c","m":"Quick pick","ti":"Change it or not?","k":"If something is still true, you can keep the present tense.","items":[
+{"s":"She told me she ___ two brothers. (still true)","o":["has","had has"],"a":"has"},
+{"s":"He said the Earth ___ round the Sun.","o":["goes","went goes"],"a":"goes"},
+{"s":"Kim said she ___ tired, but she looked fine.","o":["was","is was"],"a":"was"},
+{"s":"I asked her where the station ___ .","o":["was","was it"],"a":"was"},
+{"s":"He asked me if I ___ coffee.","o":["wanted","did want"],"a":"wanted"},
+{"s":"She wanted to know what I ___ .","o":["was doing","was I doing"],"a":"was doing"}]}]},
+{"u":49,"ex":[
+{"id":"49.1","t":"b","m":"Build it","ti":"Make the question","k":"Build the question. Watch the auxiliary verb.","items":[
+{"h":"where / do / your parents / live?","a":"Where do your parents live?","x":["does","lives?"]},
+{"h":"what / time / did / the film / start?","a":"What time did the film start?","x":["started?","does"]},
+{"h":"how many / people / came / to the party?","a":"How many people came to the party?","x":["did","come"]},
+{"h":"who / did / you / call?","a":"Who did you call?","x":["called","does"]},
+{"h":"what / happened / to your car?","a":"What happened to your car?","x":["did","happen"]},
+{"h":"why / is / she / crying?","a":"Why is she crying?","x":["does","cry?"]}]},
+{"id":"49.2","t":"g","m":"Chat","ti":"Who … ? questions","k":"Ask a question about the missing part.","w":["Friend","You"],"items":[
+{"bf":"Somebody called you.","s":"Who ___ ?","a":["called me","called"]},
+{"bf":"I called somebody.","s":"Who ___ ?","a":["did you call"]},
+{"bf":"Something broke.","s":"What ___ ?","a":["broke"]},
+{"bf":"I saw something strange.","s":"What ___ ?","a":["did you see"]},
+{"bf":"Someone ate my sandwich.","s":"Who ___ your sandwich?","a":["ate"]},
+{"bf":"Lisa met someone at the party.","s":"Who ___ at the party?","a":["did lisa meet","did she meet"]}]},
+{"id":"49.3","t":"c","m":"Quick pick","ti":"Negative questions","k":"Don't you … ? Isn't it … ? show surprise or ask for agreement.","items":[
+{"s":"___ you hear the alarm? It was so loud!","o":["Didn't","Don't"],"a":"Didn't"},
+{"s":"___ it a beautiful day?","o":["Isn't","Doesn't"],"a":"Isn't"},
+{"s":"Why ___ you tell me?","o":["didn't","don't did"],"a":"didn't"},
+{"s":"___ you like it? I thought you loved pizza.","o":["Don't","Aren't"],"a":"Don't"},
+{"s":"'Haven't you met Tom?' '___ , I haven't.'","o":["No","Yes"],"a":"No"},
+{"s":"___ you coming with us?","o":["Aren't","Don't"],"a":"Aren't"}]}]},
+{"u":50,"ex":[
+{"id":"50.1","t":"b","m":"Build it","ti":"Do you know … ?","k":"In indirect questions, use normal word order.","items":[
+{"h":"do / you / know / where / the station / is?","a":"Do you know where the station is?","x":["is","does"]},
+{"h":"can / you / tell / me / what / time / it / is?","a":"Can you tell me what time it is?","x":["is","does"]},
+{"h":"I / don't / know / where / she / lives","a":"I don't know where she lives.","x":["does","live"]},
+{"h":"do / you / know / if / he's / coming?","a":"Do you know if he's coming?","x":["is","does"]},
+{"h":"could / you / tell / me / how much / it / costs?","a":"Could you tell me how much it costs?","x":["does","cost"]}]},
+{"id":"50.2","t":"g","m":"Type it","ti":"Polite questions","k":"Rewrite the question politely after the beginning given.","items":[
+{"c":"Where is the bank?","s":"Could you tell me where ___ ?","a":["the bank is"]},
+{"c":"What time does the shop open?","s":"Do you know what time ___ ?","a":["the shop opens"]},
+{"c":"Is there a pharmacy near here?","s":"Do you know if ___ near here?","a":["there is a pharmacy","there's a pharmacy"]},
+{"c":"How much does this cost?","s":"Can you tell me how much ___ ?","a":["this costs"]},
+{"c":"Where did Tom go?","s":"I wonder where ___ .","a":["tom went"]},
+{"c":"Has the train left?","s":"Do you know whether ___ ?","a":["the train has left"]}]},
+{"id":"50.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"Do you know where ","u":"is the bank","q":"?","a":["the bank is"]},
+{"p":"I wonder what ","u":"she is doing","q":" now."},
+{"p":"Can you tell me when ","u":"does the film start","q":"?","a":["the film starts"]},
+{"p":"He asked me how old ","u":"I was","q":"."},
+{"p":"I don't know why ","u":"did she leave","q":".","a":["she left"]},
+{"p":"Do you know if ","u":"they are","q":" at home?"}]}]}
+]}

@@ -1,0 +1,220 @@
+{"units":[
+{"u":31,"ex":[
+{"id":"31.1","t":"g","m":"Type it","ti":"have to","k":"Complete with the correct form of have to.","items":[
+{"s":"I can't stay. I ___ (get) up early tomorrow.","a":["have to get"]},
+{"s":"___ (you / wear) a uniform at work?","a":["do you have to wear"]},
+{"s":"Yesterday Kim ___ (wait) an hour for the bus.","a":["had to wait"]},
+{"s":"You ___ (not / pay). The museum is free.","a":["do not have to pay"]},
+{"s":"Tom ___ (work) on Saturdays. He hates it.","a":["has to work"]},
+{"s":"Why ___ (you / leave) so early last night?","a":["did you have to leave"]},
+{"s":"We ___ (not / hurry). We've got plenty of time.","a":["do not have to hurry"]},
+{"s":"I'll ___ (buy) a new phone soon. This one is dying.","a":["have to buy"]}]},
+{"id":"31.2","t":"c","m":"Quick pick","ti":"must or have to?","k":"must is often your own opinion. have to is often a rule or a fact. For the past, use had to.","items":[
+{"s":"I ___ call Mum. I haven't spoken to her for weeks.","o":["must","had to"],"a":"must"},
+{"s":"Last year I ___ take a test to get this job.","o":["must","had to"],"a":"had to"},
+{"s":"In many countries you ___ be 18 to vote.","o":["have to","had to"],"a":"have to"},
+{"s":"This film is brilliant. You ___ see it!","o":["must","had to"],"a":"must"},
+{"s":"The shop was closed, so we ___ go somewhere else.","o":["must","had to"],"a":"had to"},
+{"s":"Does Leo ___ work late tonight?","o":["must","have to"],"a":"have to"}]},
+{"id":"31.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, type the correct form.","items":[
+{"p":"I ","u":"must went","q":" to the dentist yesterday.","a":["had to go"]},
+{"p":"","u":"Do you have to","q":" go now?"},
+{"p":"She ","u":"don't have to","q":" work tomorrow.","a":["doesn't have to"]},
+{"p":"We ","u":"had to","q":" leave the party early."},
+{"p":"He ","u":"has to studying","q":" tonight.","a":["has to study"]},
+{"p":"You ","u":"must","q":" try this cake. It's amazing!"}]}]},
+{"u":32,"ex":[
+{"id":"32.1","t":"c","m":"Quick pick","ti":"mustn't or don't need to?","k":"mustn't = it's wrong, don't do it. needn't / don't need to = it's not necessary.","items":[
+{"s":"You ___ tell anyone. It's a secret.","o":["mustn't","needn't"],"a":"mustn't"},
+{"s":"You ___ bring food. There'll be plenty.","o":["mustn't","needn't"],"a":"needn't"},
+{"s":"We ___ be late. The train won't wait.","o":["mustn't","don't need to"],"a":"mustn't"},
+{"s":"You ___ wash it. It's already clean.","o":["mustn't","don't need to"],"a":"don't need to"},
+{"s":"You ___ smoke in here. It's against the rules.","o":["mustn't","needn't"],"a":"mustn't"},
+{"s":"I ___ get up early tomorrow. It's Saturday!","o":["mustn't","don't need to"],"a":"don't need to"}]},
+{"id":"32.2","t":"g","m":"Type it","ti":"needn't have done","k":"Use needn't have + past participle: you did it, but it wasn't necessary.","items":[
+{"s":"We took a taxi, but the station was close. We ___ (take) a taxi.","a":["need not have taken","needn't have taken"]},
+{"s":"I cooked for ten, but only four came. I ___ (cook) so much.","a":["need not have cooked","needn't have cooked"]},
+{"s":"She hurried, but the film started late. She ___ (hurry).","a":["need not have hurried","needn't have hurried"]},
+{"s":"He bought milk, but we had some. He ___ (buy) it.","a":["need not have bought","needn't have bought"]},
+{"s":"I worried all night, but the test was easy. I ___ (worry).","a":["need not have worried","needn't have worried"]},
+{"s":"You ___ (wash) the dishes. We have a dishwasher!","a":["need not have washed","needn't have washed"]}]},
+{"id":"32.3","t":"m","m":"Match up","ti":"Signs and rules","k":"Match each sign with what it means.","items":[
+{"l":"NO PARKING","r":"You mustn't leave your car here."},
+{"l":"ENTRY FREE","r":"You don't need to pay."},
+{"l":"QUIET PLEASE","r":"You mustn't make a noise."},
+{"l":"NO BOOKING REQUIRED","r":"You needn't reserve a place."},
+{"l":"DO NOT TOUCH","r":"You mustn't put your hands on it."},
+{"l":"OPTIONAL","r":"You don't have to do it."}]}]},
+{"u":33,"ex":[
+{"id":"33.1","t":"g","m":"Advice","ti":"What should they do?","k":"Give advice with should or shouldn't.","items":[
+{"c":"Lucy has a bad toothache.","s":"She ___ (go) to the dentist.","a":["should go"]},
+{"c":"Max eats a lot of junk food.","s":"He ___ (eat) so much junk food.","a":["should not eat","shouldn't eat"]},
+{"c":"I'm always tired.","s":"You ___ (go) to bed earlier.","a":["should go"]},
+{"c":"Jo spends hours on her phone at night.","s":"She ___ (use) her phone in bed.","a":["should not use","shouldn't use"]},
+{"c":"The tourists are lost.","s":"They ___ (ask) someone for directions.","a":["should ask"]},
+{"c":"I've got an interview tomorrow.","s":"You ___ (be) late!","a":["should not be","shouldn't be"]}]},
+{"id":"33.2","t":"g","m":"Type it","ti":"should have done","k":"Use should have / shouldn't have + past participle to criticise past actions.","items":[
+{"s":"I failed the test. I ___ (study) harder.","a":["should have studied"]},
+{"s":"We missed the bus. We ___ (leave) earlier.","a":["should have left"]},
+{"s":"He ate too much cake. He ___ (eat) the last piece.","a":["should not have eaten","shouldn't have eaten"]},
+{"s":"The party was great. You ___ (come)!","a":["should have come"]},
+{"s":"I said something stupid. I ___ (say) that.","a":["should not have said","shouldn't have said"]},
+{"s":"It's cold. I ___ (bring) a coat.","a":["should have brought"]}]},
+{"id":"33.3","t":"b","m":"Build it","ti":"I think / I don't think … should","k":"Build the opinion.","items":[
+{"h":"I / don't think / you / should / go","a":"I don't think you should go.","x":["shouldn't","going"]},
+{"h":"do / you / think / I / should / call / her?","a":"Do you think I should call her?","x":["Should","calling"]},
+{"h":"I / think / they / should / say / sorry","a":"I think they should say sorry.","x":["must","saying"]},
+{"h":"what / should / I / wear?","a":"What should I wear?","x":["do","wearing?"]},
+{"h":"you / shouldn't / work / so hard","a":"You shouldn't work so hard.","x":["don't","working"]}]}]},
+{"u":34,"ex":[
+{"id":"34.1","t":"g","m":"Type it","ti":"It's important that …","k":"After insist, suggest, recommend, important that, you can use should + verb or just the base verb.","items":[
+{"s":"The doctor recommended that she ___ (rest) for a week.","a":["rest","should rest"]},
+{"s":"I insisted that he ___ (take) the money.","a":["take","should take"]},
+{"s":"It's essential that everyone ___ (arrive) on time.","a":["arrive","should arrive"]},
+{"s":"They suggested that we ___ (stay) at their place.","a":["stay","should stay"]},
+{"s":"It's vital that you ___ (not / tell) anyone.","a":["not tell","should not tell"]},
+{"s":"She demanded that the manager ___ (apologise).","a":["apologise","should apologise"]}]},
+{"id":"34.2","t":"c","m":"Quick pick","ti":"suggest","k":"After suggest, don't use to + verb. Use -ing, or that + subject + verb.","items":[
+{"s":"She suggested ___ to the cinema.","o":["going","to go"],"a":"going"},
+{"s":"I suggest ___ a taxi.","o":["we take","us to take"],"a":"we take"},
+{"s":"What do you suggest ___ ?","o":["I do","me to do"],"a":"I do"},
+{"s":"He suggested ___ for help.","o":["asking","to ask"],"a":"asking"},
+{"s":"They suggested that I ___ early.","o":["leave","to leave"],"a":"leave"},
+{"s":"Can I suggest ___ a break?","o":["having","to have"],"a":"having"}]},
+{"id":"34.3","t":"g","m":"Type it","ti":"should = surprise","k":"Use should after it's strange/surprising that …, and in if … should for unlikely things.","items":[
+{"s":"It's strange that she ___ (forget). She never forgets anything.","a":["should forget","should have forgotten"]},
+{"s":"If anyone ___ (call), tell them I'm out.","a":["should call","calls"]},
+{"s":"I was surprised that he ___ (say) that.","a":["should say","should have said"]},
+{"s":"If you ___ (need) anything, just ask.","a":["should need","need"]},
+{"s":"Why ___ (I / help) you? You never help me!","a":["should i help"]},
+{"s":"How ___ (I / know)? I wasn't there.","a":["should i know"]}]}]},
+{"u":35,"ex":[
+{"id":"35.1","t":"g","m":"Advice","ti":"You'd better …","k":"Use had better ('d better) or 'd better not to give strong advice for now.","items":[
+{"c":"It's going to rain.","s":"You ___ (take) an umbrella.","a":["had better take","'d better take"]},
+{"c":"The boss is angry.","s":"We ___ (be) late again.","a":["had better not be","'d better not be"]},
+{"c":"The film starts in ten minutes.","s":"We ___ (go) now.","a":["had better go","'d better go"]},
+{"c":"The ice is thin.","s":"You ___ (walk) on it.","a":["had better not walk","'d better not walk"]},
+{"c":"I've got a cold.","s":"I ___ (stay) at home.","a":["had better stay","'d better stay"]},
+{"c":"The dog looks angry.","s":"You ___ (touch) it.","a":["had better not touch","'d better not touch"]}]},
+{"id":"35.2","t":"g","m":"Type it","ti":"It's time …","k":"After it's time + subject, use the past simple. After it's time, you can also use to + verb.","items":[
+{"s":"It's late. It's time we ___ (go) home.","a":["went"]},
+{"s":"It's 7.30. It's time ___ (get) up!","a":["to get"]},
+{"s":"Your hair is so long. It's time you ___ (have) a haircut.","a":["had"]},
+{"s":"It's time the government ___ (do) something about it.","a":["did"]},
+{"s":"The kids are tired. It's time they ___ (be) in bed.","a":["were"]},
+{"s":"It's time ___ (start) the meeting.","a":["to start"]}]},
+{"id":"35.3","t":"c","m":"Quick pick","ti":"had better or should?","k":"had better is for a specific situation now (or something bad will happen). should is for general advice too.","items":[
+{"s":"We ___ hurry. The shop closes in five minutes.","o":["'d better","'d better to"],"a":"'d better"},
+{"s":"People ___ eat more vegetables.","o":["had better","should"],"a":"should"},
+{"s":"You ___ not forget your passport!","o":["had better","should to"],"a":"had better"},
+{"s":"It's a great book. You ___ read it some time.","o":["should","had better"],"a":"should"},
+{"s":"I ___ phone Dad. He's waiting for my call.","o":["'d better","'d better to"],"a":"'d better"},
+{"s":"It's time we ___ a new car.","o":["buy","bought"],"a":"bought"}]}]},
+{"u":36,"ex":[
+{"id":"36.1","t":"g","m":"Daydream","ti":"I would …","k":"Use would to talk about imaginary situations.","items":[
+{"s":"I'd love a dog, but I ___ (not / have) time to walk it.","a":["would not have","wouldn't have"]},
+{"s":"It ___ (be) nice to live by the sea.","a":["would be"]},
+{"s":"What ___ (you / do) with a million euros?","a":["would you do"]},
+{"s":"I ___ (never / leave) my friends behind.","a":["would never leave"]},
+{"s":"A holiday ___ (do) you good.","a":["would do"]},
+{"s":"I ___ (call) you, but my phone was dead.","a":["would have called"]}]},
+{"id":"36.2","t":"c","m":"Quick pick","ti":"would for the past","k":"would can mean: refused (wouldn't), or it happened regularly in the past.","items":[
+{"s":"I asked him to help, but he ___ .","o":["wouldn't","didn't would"],"a":"wouldn't"},
+{"s":"When I was a child, Grandpa ___ tell us stories every night.","o":["would","will"],"a":"would"},
+{"s":"The car ___ start this morning, so I took the bus.","o":["wouldn't","won't"],"a":"wouldn't"},
+{"s":"Every summer we ___ go camping by the lake.","o":["would","will"],"a":"would"},
+{"s":"She promised she ___ write, but she never did.","o":["would","will"],"a":"would"},
+{"s":"I knew you ___ like this place.","o":["would","will"],"a":"would"}]},
+{"id":"36.3","t":"g","m":"Type it","ti":"I wish … would","k":"Use I wish + would to complain about things you want to change.","items":[
+{"s":"It's been raining all week. I wish it ___ (stop).","a":["would stop"]},
+{"s":"I wish you ___ (not / interrupt) me all the time.","a":["would not interrupt","wouldn't interrupt"]},
+{"s":"The neighbours are so loud. I wish they ___ (turn) the music down.","a":["would turn"]},
+{"s":"I wish someone ___ (answer) the phone!","a":["would answer"]},
+{"s":"I wish he ___ (help) a bit more at home.","a":["would help"]},
+{"s":"I wish you ___ (not / leave) your socks on the floor.","a":["would not leave","wouldn't leave"]}]}]},
+{"u":37,"ex":[
+{"id":"37.1","t":"c","m":"Polite","ti":"Asking nicely","k":"Pick the most natural polite form.","items":[
+{"s":"___ you pass the salt, please?","o":["Could","Must"],"a":"Could"},
+{"s":"Do you think you ___ help me with this box?","o":["could","can to"],"a":"could"},
+{"s":"Would you mind ___ the window?","o":["opening","to open"],"a":"opening"},
+{"s":"___ I use your phone? Mine's dead.","o":["May","Would"],"a":"May"},
+{"s":"Would you like ___ some tea?","o":["to have","having"],"a":"to have"},
+{"s":"Can I ___ you a hand with that?","o":["give","to give"],"a":"give"}]},
+{"id":"37.2","t":"m","m":"Match up","ti":"Request, offer or invitation?","k":"Match each sentence with what it does.","items":[
+{"l":"Could you lend me five euros?","r":"Asking someone to do something"},
+{"l":"Can I carry that for you?","r":"Offering to help"},
+{"l":"Would you like to come to dinner?","r":"Inviting someone"},
+{"l":"Is it OK if I sit here?","r":"Asking for permission"},
+{"l":"Would you like a biscuit?","r":"Offering something"},
+{"l":"Can I have the bill, please?","r":"Asking for something"}]},
+{"id":"37.3","t":"g","m":"Chat","ti":"What do you say?","k":"Write a polite question.","w":["Situation","You"],"items":[
+{"bf":"You want to borrow a pen from a classmate.","s":"___ your pen, please?","a":["could i borrow","can i borrow","may i borrow"]},
+{"bf":"You want someone to close the door.","s":"___ the door, please?","a":["could you close","can you close","would you close"]},
+{"bf":"You invite a friend to a party.","s":"___ to my party on Saturday?","a":["would you like to come","do you want to come"]},
+{"bf":"You offer to help an old man with his bag.","s":"___ your bag?","a":["can i carry","shall i carry","can i help you with"]},
+{"bf":"You want to know if you can open the window.","s":"Is it all right if ___ the window?","a":["i open"]}]}]},
+{"u":38,"ex":[
+{"id":"38.1","t":"c","m":"Quick pick","ti":"Real or imaginary?","k":"if I do = it's possible. if I did = it's imaginary or unlikely.","items":[
+{"s":"If it ___ tomorrow, we'll stay in.","o":["rains","rained"],"a":"rains"},
+{"s":"If I ___ a million euros, I'd buy an island.","o":["win","won"],"a":"won"},
+{"s":"What would you do if you ___ a wallet in the street?","o":["find","found"],"a":"found"},
+{"s":"If you ___ hurry, you'll miss the train.","o":["don't","didn't"],"a":"don't"},
+{"s":"If he ___ more, he'd pass his exams.","o":["studies","studied"],"a":"studied"},
+{"s":"I'll lend you my car if you ___ careful.","o":["are","were"],"a":"are"}]},
+{"id":"38.2","t":"g","m":"Daydream","ti":"What would you do?","k":"Complete with would + verb or the past simple.","items":[
+{"s":"If I ___ (have) more time, I'd learn to cook.","a":["had"]},
+{"s":"If you lived in Paris, you ___ (speak) French every day.","a":["would speak"]},
+{"s":"We ___ (not / go) if it rained.","a":["would not go","wouldn't go"]},
+{"s":"If she ___ (not / be) so busy, she'd come with us.","a":["was not","were not","wasn't","weren't"]},
+{"s":"What ___ (you / say) if he asked you out?","a":["would you say"]},
+{"s":"If I ___ (can) fly, I'd go to Japan.","a":["could"]}]},
+{"id":"38.3","t":"b","m":"Build it","ti":"Imagine …","k":"Build the second conditional sentence.","items":[
+{"h":"if / I / knew / his number / I'd / call / him","a":"If I knew his number, I'd call him.","x":["know","will"]},
+{"h":"what / would / you / do / if / you / lost / your job?","a":"What would you do if you lost your job?","x":["will","lose"]},
+{"h":"if / it / was / cheaper / I'd / buy / it","a":"If it was cheaper, I'd buy it.","x":["is","will"]},
+{"h":"I / wouldn't / go / if / I / were / you","a":"I wouldn't go if I were you.","x":["won't","am"]},
+{"h":"if / we / had / a car / we'd / visit / you","a":"If we had a car, we'd visit you.","x":["have","will"]}]}]},
+{"u":39,"ex":[
+{"id":"39.1","t":"g","m":"Wishes","ti":"I wish I knew …","k":"Use I wish + past simple for things you'd like to be different now.","items":[
+{"c":"I don't know the answer.","s":"I wish I ___ the answer.","a":["knew"]},
+{"c":"I live in a small town.","s":"I wish I ___ in a big city.","a":["lived"]},
+{"c":"I can't sing.","s":"I wish I ___ sing.","a":["could"]},
+{"c":"It's cold.","s":"I wish it ___ warmer.","a":["was","were"]},
+{"c":"I have to work tomorrow.","s":"I wish I ___ have to work tomorrow.","a":["did not","didn't"]},
+{"c":"My flat is tiny.","s":"I wish my flat ___ bigger.","a":["was","were"]}]},
+{"id":"39.2","t":"c","m":"Quick pick","ti":"If I were you …","k":"Pick the correct form.","items":[
+{"s":"If I ___ you, I'd take the job.","o":["were","am"],"a":"were"},
+{"s":"I wish I ___ a car. Walking is slow.","o":["had","have"],"a":"had"},
+{"s":"If he ___ taller, he could play basketball.","o":["were","is"],"a":"were"},
+{"s":"I wish you ___ here. I miss you!","o":["were","are"],"a":"were"},
+{"s":"If we ___ the address, we could send a card.","o":["knew","know"],"a":"knew"},
+{"s":"I wish I ___ to go to work today.","o":["didn't have","don't have"],"a":"didn't have"}]},
+{"id":"39.3","t":"g","m":"Type it","ti":"Imaginary present","k":"Complete with the past simple or would.","items":[
+{"s":"If I ___ (be) rich, I'd travel the world.","a":["was","were"]},
+{"s":"She'd be happier if she ___ (have) more friends.","a":["had"]},
+{"s":"If I didn't like my job, I ___ (leave) it.","a":["would leave"]},
+{"s":"I wish I ___ (not / need) glasses.","a":["did not need","didn't need"]},
+{"s":"If the weather ___ (be) better, we could eat outside.","a":["was","were"]},
+{"s":"What ___ (happen) if everyone stopped working?","a":["would happen"]}]}]},
+{"u":40,"ex":[
+{"id":"40.1","t":"g","m":"Regrets","ti":"If I had known …","k":"Use if + had + past participle and would have + past participle for imaginary past.","items":[
+{"s":"If I ___ (know) you were ill, I'd have visited you.","a":["had known"]},
+{"s":"We ___ (catch) the train if we'd left earlier.","a":["would have caught"]},
+{"s":"If she hadn't slept in, she ___ (not / be) late.","a":["would not have been","wouldn't have been"]},
+{"s":"If they ___ (not / help) us, we'd have been in trouble.","a":["had not helped","hadn't helped"]},
+{"s":"I ___ (buy) it if it had been cheaper.","a":["would have bought"]},
+{"s":"What ___ (you / do) if you'd missed the flight?","a":["would you have done"]}]},
+{"id":"40.2","t":"g","m":"Wishes","ti":"I wish I had …","k":"Use I wish + had + past participle for regrets about the past.","items":[
+{"c":"I didn't go to the concert.","s":"I wish I ___ to the concert.","a":["had gone","had been"]},
+{"c":"I ate too much.","s":"I wish I ___ so much.","a":["had not eaten","hadn't eaten"]},
+{"c":"I didn't study Spanish at school.","s":"I wish I ___ Spanish.","a":["had studied"]},
+{"c":"I told her the secret.","s":"I wish I ___ her.","a":["had not told","hadn't told"]},
+{"c":"We didn't take any photos.","s":"I wish we ___ some photos.","a":["had taken"]},
+{"c":"He sold his old guitar.","s":"He wishes he ___ it.","a":["had not sold","hadn't sold"]}]},
+{"id":"40.3","t":"b","m":"Build it","ti":"What if … ?","k":"Build the sentence about the past.","items":[
+{"h":"if / I'd / seen / you / I'd / have / said / hello","a":"If I'd seen you, I'd have said hello.","x":["saw","would"]},
+{"h":"I / wish / I / hadn't / said / that","a":"I wish I hadn't said that.","x":["didn't","say"]},
+{"h":"if / it / hadn't / rained / we'd / have / gone","a":"If it hadn't rained, we'd have gone.","x":["didn't","went"]},
+{"h":"she / wouldn't / have / known / if / you / hadn't / told / her","a":"She wouldn't have known if you hadn't told her.","x":["didn't","knew"]},
+{"h":"I / wish / I'd / listened / to / you","a":"I wish I'd listened to you.","x":["listen","have"]}]}]}
+]}

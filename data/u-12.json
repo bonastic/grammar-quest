@@ -1,0 +1,214 @@
+{"units":[
+{"u":111,"ex":[
+{"id":"111.1","t":"c","m":"Quick pick","ti":"still, yet, already, any more","k":"still = continuing. yet = expected, in questions/negatives. already = sooner than expected. any more = stopped.","items":[
+{"s":"Is it ___ raining? I want to go out.","o":["still","yet"],"a":"still"},
+{"s":"Have you finished ___ ?","o":["yet","still"],"a":"yet"},
+{"s":"I've ___ eaten, thanks.","o":["already","yet"],"a":"already"},
+{"s":"She doesn't live here ___ .","o":["any more","still"],"a":"any more"},
+{"s":"The film hasn't started ___ .","o":["yet","already"],"a":"yet"},
+{"s":"He ___ hasn't called me back.","o":["still","yet"],"a":"still"}]},
+{"id":"111.2","t":"g","m":"Type it","ti":"Then and now","k":"Complete with still, yet, already or any more.","items":[
+{"s":"I used to smoke, but I don't ___ .","a":["any more","anymore"]},
+{"s":"It's ten o'clock and Tom is ___ in bed.","a":["still"]},
+{"s":"'Shall I book a table?' 'I've ___ done it.'","a":["already"]},
+{"s":"'Is dinner ready?' 'Not ___ . Ten more minutes.'","a":["yet"]},
+{"s":"Are you ___ working at the bank?","a":["still"]},
+{"s":"You've ___ finished? That was quick!","a":["already"]}]},
+{"id":"111.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"I haven't seen it ","u":"still","q":".","a":["yet"]},
+{"p":"She's ","u":"still","q":" waiting for the bus."},
+{"p":"He doesn't work here ","u":"yet","q":".","a":["any more","anymore"]},
+{"p":"Have you ","u":"already","q":" finished? Wow!"},
+{"p":"The shop ","u":"yet","q":" isn't open.","a":["still"]},
+{"p":"I've ","u":"already","q":" seen that film."}]}]},
+{"u":112,"ex":[
+{"id":"112.1","t":"c","m":"Quick pick","ti":"even","k":"even = something surprising.","items":[
+{"s":"Everybody came, ___ Tom, who never goes out.","o":["even","also"],"a":"even"},
+{"s":"It's so easy that ___ a child could do it.","o":["even","still"],"a":"even"},
+{"s":"I didn't ___ know she was married!","o":["even","still"],"a":"even"},
+{"s":"This one is ___ more expensive.","o":["even","ever"],"a":"even"},
+{"s":"She works ___ on Sundays.","o":["even","yet"],"a":"even"},
+{"s":"I'll go ___ if it rains.","o":["even","ever"],"a":"even"}]},
+{"id":"112.2","t":"g","m":"Type it","ti":"even if / even though","k":"even if = whether or not. even though = although (it's true).","items":[
+{"s":"___ it was raining, we went for a walk.","a":["even though"]},
+{"s":"I'll finish it ___ it takes all night.","a":["even if"]},
+{"s":"She went to work ___ she was ill.","a":["even though"]},
+{"s":"___ you don't like him, be polite.","a":["even if","even though"]},
+{"s":"He didn't get the job ___ he had experience.","a":["even though"]},
+{"s":"I wouldn't go ___ you paid me!","a":["even if"]}]},
+{"id":"112.3","t":"b","m":"Build it","ti":"Even","k":"Build the sentence.","items":[
+{"h":"she / even / cleaned / the windows","a":"She even cleaned the windows.","x":["ever","also"]},
+{"h":"I / didn't / even / say / goodbye","a":"I didn't even say goodbye.","x":["ever","still"]},
+{"h":"it's / even / colder / today","a":"It's even colder today.","x":["ever","more"]},
+{"h":"even / my / grandmother / has / a phone","a":"Even my grandmother has a phone.","x":["ever","have"]}]}]},
+{"u":113,"ex":[
+{"id":"113.1","t":"c","m":"Quick pick","ti":"although or despite?","k":"although + clause. despite / in spite of + noun or -ing.","items":[
+{"s":"___ it was cold, we swam.","o":["Although","Despite"],"a":"Although"},
+{"s":"___ the cold, we swam.","o":["Despite","Although"],"a":"Despite"},
+{"s":"In spite ___ the rain, the match went on.","o":["of","that"],"a":"of"},
+{"s":"She passed ___ not studying much.","o":["despite","although"],"a":"despite"},
+{"s":"I enjoyed it, ___ it was long.","o":["though","in spite of"],"a":"though"},
+{"s":"___ being tired, he kept working.","o":["Despite","Although"],"a":"Despite"}]},
+{"id":"113.2","t":"b","m":"Build it","ti":"Join with despite","k":"Rewrite with despite or in spite of.","items":[
+{"c":"Although it rained, we went out.","h":"despite / the rain / we / went / out","a":"Despite the rain, we went out.","x":["although","of"]},
+{"c":"Although he was ill, he came.","h":"despite / being / ill / he / came","a":"Despite being ill, he came.","x":["was","although"]},
+{"c":"Although the traffic was bad, we were on time.","h":"in spite of / the traffic / we / were / on time","a":"In spite of the traffic, we were on time.","x":["although","despite"]},
+{"c":"Although she trained hard, she lost.","h":"despite / training / hard / she / lost","a":"Despite training hard, she lost.","x":["trained","of"]}]},
+{"id":"113.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"","u":"Despite","q":" it was late, we stayed.","a":["although","even though","though"]},
+{"p":"","u":"In spite of","q":" the noise, I slept well."},
+{"p":"","u":"Although","q":" the bad weather, we had fun.","a":["despite","in spite of"]},
+{"p":"He came to work ","u":"despite","q":" feeling ill."},
+{"p":"","u":"Despite of","q":" the cost, they bought it.","a":["despite","in spite of"]},
+{"p":"I like her, ","u":"even though","q":" she's difficult."}]}]},
+{"u":114,"ex":[
+{"id":"114.1","t":"g","m":"Type it","ti":"Just in case","k":"Use in case: do something because something might happen.","items":[
+{"c":"It might rain.","s":"Take an umbrella in case it ___ .","a":["rains"]},
+{"c":"You might get hungry.","s":"Take a sandwich in case you ___ hungry.","a":["get"]},
+{"c":"I might forget.","s":"I'll write it down in case I ___ .","a":["forget"]},
+{"c":"The train might be late.","s":"Leave early in case the train ___ late.","a":["is"]},
+{"c":"She might call.","s":"Keep your phone on in case she ___ .","a":["calls"]},
+{"c":"We might get lost.","s":"Bring a map in case we ___ lost.","a":["get"]}]},
+{"id":"114.2","t":"c","m":"Quick pick","ti":"in case or if?","k":"in case = to be ready for. if = only when it happens.","items":[
+{"s":"I'll take a coat ___ it gets cold. (I'm taking it now)","o":["in case","if"],"a":"in case"},
+{"s":"Call me ___ you need help. (only then)","o":["if","in case"],"a":"if"},
+{"s":"I bought extra food ___ more people came.","o":["in case","if"],"a":"in case"},
+{"s":"___ the fire alarm rings, leave the building.","o":["If","In case"],"a":"If"},
+{"s":"Write down my number ___ you lose your phone.","o":["in case","if"],"a":"in case"},
+{"s":"We'll stay at home ___ it rains.","o":["if","in case"],"a":"if"}]},
+{"id":"114.3","t":"b","m":"Build it","ti":"Be prepared","k":"Build the sentence with in case.","items":[
+{"h":"take / some money / in case / you / need / it","a":"Take some money in case you need it.","x":["if","will"]},
+{"h":"I'll / leave / a note / in case / she / comes","a":"I'll leave a note in case she comes.","x":["will","come"]},
+{"h":"we / booked / early / in case / it / was / busy","a":"We booked early in case it was busy.","x":["will","if"]},
+{"h":"I / saved / it / twice / in case / the computer / crashed","a":"I saved it twice in case the computer crashed.","x":["will","crash"]}]}]},
+{"u":115,"ex":[
+{"id":"115.1","t":"c","m":"Quick pick","ti":"unless","k":"unless = except if / if … not.","items":[
+{"s":"I won't go ___ you come with me.","o":["unless","if"],"a":"unless"},
+{"s":"You'll be late ___ you hurry.","o":["unless","as long as"],"a":"unless"},
+{"s":"You can borrow it ___ you bring it back.","o":["as long as","unless"],"a":"as long as"},
+{"s":"I'll lend you the car ___ you drive carefully.","o":["provided","unless"],"a":"provided"},
+{"s":"Don't call me ___ it's urgent.","o":["unless","provided"],"a":"unless"},
+{"s":"We'll have a picnic ___ it's sunny.","o":["as long as","unless"],"a":"as long as"}]},
+{"id":"115.2","t":"g","m":"Type it","ti":"Rewrite with unless","k":"Complete the second sentence with unless.","items":[
+{"c":"If you don't study, you'll fail.","s":"You'll fail ___ study.","a":["unless you"]},
+{"c":"If it doesn't rain, we'll go.","s":"We'll go ___ rains.","a":["unless it"]},
+{"c":"I won't come if you don't invite me.","s":"I won't come ___ invite me.","a":["unless you"]},
+{"c":"If they don't hurry, they'll miss it.","s":"They'll miss it ___ hurry.","a":["unless they"]},
+{"c":"She won't sleep if the light isn't off.","s":"She won't sleep ___ the light is off.","a":["unless"]},
+{"c":"Don't touch it if you don't need to.","s":"Don't touch it ___ need to.","a":["unless you"]}]},
+{"id":"115.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"I'll come ","u":"unless I'll be","q":" busy.","a":["unless i am","unless i'm"]},
+{"p":"You can stay ","u":"as long as","q":" you're quiet."},
+{"p":"","u":"Unless you don't","q":" hurry, you'll be late.","a":["unless you","if you don't"]},
+{"p":"I'll help you ","u":"provided","q":" you help me too."},
+{"p":"We'll go ","u":"as long as it won't","q":" rain.","a":["as long as it doesn't"]},
+{"p":"Don't come ","u":"unless","q":" you're invited."}]}]},
+{"u":116,"ex":[
+{"id":"116.1","t":"c","m":"Quick pick","ti":"as = when / because","k":"as can mean 'while/when' or 'because'.","items":[
+{"s":"___ I was leaving, the phone rang.","o":["As","Like"],"a":"As"},
+{"s":"___ it was late, we took a taxi.","o":["As","Like"],"a":"As"},
+{"s":"I saw her ___ I was getting off the bus.","o":["as","like"],"a":"as"},
+{"s":"___ you're here, can you help me?","o":["As","Like"],"a":"As"},
+{"s":"She smiled ___ she opened the present.","o":["as","like"],"a":"as"},
+{"s":"___ I don't have a car, I cycle.","o":["As","Like"],"a":"As"}]},
+{"id":"116.2","t":"b","m":"Build it","ti":"Join with as","k":"Join the two sentences with as.","items":[
+{"c":"I was walking home. It started to rain.","h":"as / I / was / walking / home / it / started / to rain","a":"As I was walking home it started to rain.","x":["like","while"]},
+{"c":"It was a holiday. The shops were closed.","h":"as / it / was / a holiday / the shops / were / closed","a":"As it was a holiday the shops were closed.","x":["like","so"]},
+{"c":"She was tired. She went to bed early.","h":"as / she / was / tired / she / went / to bed / early","a":"As she was tired she went to bed early.","x":["like","so"]},
+{"c":"We were leaving. Tom arrived.","h":"as / we / were / leaving / Tom / arrived","a":"As we were leaving Tom arrived.","x":["like","while"]}]},
+{"id":"116.3","t":"g","m":"Type it","ti":"Just as","k":"Complete with as or just as.","items":[
+{"s":"The bus left ___ I got to the stop. (exactly at that moment)","a":["just as"]},
+{"s":"___ the film started, my phone rang. (exactly then)","a":["just as"]},
+{"s":"___ we didn't have much money, we stayed at home.","a":["as"]},
+{"s":"She waved ___ the train pulled out.","a":["as"]},
+{"s":"___ I was going to call you, you called me!","a":["just as"]},
+{"s":"___ you know, the office is closed tomorrow.","a":["as"]}]}]},
+{"u":117,"ex":[
+{"id":"117.1","t":"c","m":"Quick pick","ti":"like or as?","k":"like = similar to. as = in the role of / the way that.","items":[
+{"s":"She works ___ a nurse.","o":["as","like"],"a":"as"},
+{"s":"He sings ___ a bird.","o":["like","as"],"a":"like"},
+{"s":"Do it ___ I showed you.","o":["as","like a"],"a":"as"},
+{"s":"I used my coat ___ a pillow.","o":["as","like"],"a":"as"},
+{"s":"You look ___ your mother.","o":["like","as"],"a":"like"},
+{"s":"___ a child, I lived in Spain.","o":["As","Like"],"a":"As"}]},
+{"id":"117.2","t":"g","m":"Type it","ti":"like or as?","k":"Type like or as.","items":[
+{"s":"This tastes ___ chicken.","a":["like"]},
+{"s":"She got a job ___ a teacher.","a":["as"]},
+{"s":"___ I said, the shop is closed on Mondays.","a":["as"]},
+{"s":"It's cold, ___ winter.","a":["like"]},
+{"s":"He was famous ___ a singer.","a":["as"]},
+{"s":"Don't talk to me ___ that!","a":["like"]}]},
+{"id":"117.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined word OK? If not, correct it.","items":[
+{"p":"She works ","u":"like","q":" a waitress.","a":["as"]},
+{"p":"He swims ","u":"like","q":" a fish."},
+{"p":"","u":"Like","q":" a teacher, I correct a lot of essays.","a":["as"]},
+{"p":"Your house is ","u":"like","q":" a palace!"},
+{"p":"Do it ","u":"like","q":" I do.","a":["as","the way"]},
+{"p":"I used the box ","u":"as","q":" a table."}]}]},
+{"u":118,"ex":[
+{"id":"118.1","t":"c","m":"Quick pick","ti":"as if","k":"as if / as though = it seems like.","items":[
+{"s":"You look ___ you've seen a ghost.","o":["as if","like as"],"a":"as if"},
+{"s":"He talks ___ he knows everything.","o":["as if","as"],"a":"as if"},
+{"s":"It sounds ___ a party next door.","o":["like","as if a"],"a":"like"},
+{"s":"She acted ___ nothing had happened.","o":["as if","like if"],"a":"as if"},
+{"s":"I feel ___ I'm going to faint.","o":["as if","as"],"a":"as if"},
+{"s":"It smells ___ something is burning.","o":["as if","like as"],"a":"as if"}]},
+{"id":"118.2","t":"g","m":"Type it","ti":"It looks as if …","k":"Complete with as if + a suitable verb form.","items":[
+{"c":"The sky is dark.","s":"It looks as if it ___ going to rain.","a":["is","'s"]},
+{"c":"He's limping.","s":"He walks as if he ___ hurt his leg.","a":["has","'s"]},
+{"c":"She's not a queen.","s":"She behaves as if she ___ a queen.","a":["was","were"]},
+{"c":"You're shouting.","s":"Don't speak to me as if I ___ deaf.","a":["was","were"]},
+{"c":"You look tired.","s":"You look as if you ___ slept for days.","a":["haven't","have not","hadn't"]},
+{"c":"The food smells amazing.","s":"It smells as if someone ___ baking bread.","a":["is","'s"]}]},
+{"id":"118.3","t":"m","m":"Match up","ti":"What does it look like?","k":"Match the situation with the comment.","items":[
+{"l":"He's sweating and red.","r":"He looks as if he's been running."},
+{"l":"She keeps yawning.","r":"She looks as if she needs sleep."},
+{"l":"The streets are wet.","r":"It looks as if it's rained."},
+{"l":"They're laughing a lot.","r":"It sounds as if they're having fun."},
+{"l":"You're staring at me.","r":"You look as if you don't believe me."},
+{"l":"The milk smells bad.","r":"It smells as if it's gone off."}]}]},
+{"u":119,"ex":[
+{"id":"119.1","t":"c","m":"Quick pick","ti":"during, for or while?","k":"during + noun (when). for + period (how long). while + clause.","items":[
+{"s":"I fell asleep ___ the film.","o":["during","for"],"a":"during"},
+{"s":"We waited ___ two hours.","o":["for","during"],"a":"for"},
+{"s":"She called ___ I was out.","o":["while","during"],"a":"while"},
+{"s":"It rained ___ the night.","o":["during","while"],"a":"during"},
+{"s":"I lived in Rome ___ three years.","o":["for","during"],"a":"for"},
+{"s":"Don't talk ___ you're eating.","o":["while","during"],"a":"while"}]},
+{"id":"119.2","t":"g","m":"Type it","ti":"Which word?","k":"Type during, for or while.","items":[
+{"s":"I met a lot of people ___ my holiday.","a":["during"]},
+{"s":"He's been ill ___ a week.","a":["for"]},
+{"s":"Someone stole my bag ___ I was swimming.","a":["while"]},
+{"s":"Please turn off your phones ___ the concert.","a":["during"]},
+{"s":"I read a book ___ I was waiting.","a":["while"]},
+{"s":"We stayed there ___ ten days.","a":["for"]}]},
+{"id":"119.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined word OK? If not, correct it.","items":[
+{"p":"I slept ","u":"during","q":" eight hours.","a":["for"]},
+{"p":"She worked ","u":"while","q":" I was cooking."},
+{"p":"It snowed ","u":"while","q":" the night.","a":["during"]},
+{"p":"We talked ","u":"for","q":" ages."},
+{"p":"He phoned ","u":"during","q":" I was having dinner.","a":["while"]},
+{"p":"Nobody spoke ","u":"during","q":" the meeting."}]}]},
+{"u":120,"ex":[
+{"id":"120.1","t":"c","m":"Quick pick","ti":"by or until?","k":"by = not later than. until = up to that time (continuing).","items":[
+{"s":"Please send it ___ Friday.","o":["by","until"],"a":"by"},
+{"s":"I'll be here ___ six o'clock.","o":["until","by"],"a":"until"},
+{"s":"We waited ___ the rain stopped.","o":["until","by"],"a":"until"},
+{"s":"The work must be finished ___ Monday.","o":["by","until"],"a":"by"},
+{"s":"I'll be back ___ ten at the latest.","o":["by","until"],"a":"by"},
+{"s":"The shop is open ___ midnight.","o":["until","by"],"a":"until"}]},
+{"id":"120.2","t":"g","m":"Type it","ti":"By the time","k":"Complete with a past perfect or future perfect form after by the time.","items":[
+{"s":"By the time we arrived, the film ___ (start).","a":["had started","had already started"]},
+{"s":"By the time you get home, I ___ (go) to bed.","a":["will have gone"]},
+{"s":"By the time the police came, the thief ___ (escape).","a":["had escaped"]},
+{"s":"By the time she's 30, she ___ (visit) 50 countries.","a":["will have visited"]},
+{"s":"By the time I found my keys, the bus ___ (leave).","a":["had left"]},
+{"s":"By the time we finish, it ___ (get) dark.","a":["will have got","will have gotten"]}]},
+{"id":"120.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined word OK? If not, correct it.","items":[
+{"p":"I'll wait for you ","u":"by","q":" five o'clock.","a":["until","till"]},
+{"p":"Pay the bill ","u":"by","q":" the end of the month."},
+{"p":"She stayed in bed ","u":"by","q":" lunchtime.","a":["until","till"]},
+{"p":"I'll have finished ","u":"by","q":" tomorrow."},
+{"p":"The library is open ","u":"by","q":" 8 pm.","a":["until","till"]},
+{"p":"We have to leave ","u":"by","q":" noon."}]}]}
+]}

@@ -1,0 +1,217 @@
+{"units":[
+{"u":101,"ex":[
+{"id":"101.1","t":"c","m":"Quick pick","ti":"good or well?","k":"good = adjective. well = adverb (and also 'healthy').","items":[
+{"s":"She's a ___ singer.","o":["good","well"],"a":"good"},
+{"s":"She sings ___ .","o":["well","good"],"a":"well"},
+{"s":"I don't feel ___ . I think I'm ill.","o":["well","good"],"a":"well"},
+{"s":"You did a ___ job!","o":["good","well"],"a":"good"},
+{"s":"The team played ___ last night.","o":["well","good"],"a":"well"},
+{"s":"Your English is very ___ .","o":["good","well"],"a":"good"}]},
+{"id":"101.2","t":"c","m":"Quick pick","ti":"hard or hardly? late or lately?","k":"hard = with effort. hardly = almost not. late = not early. lately = recently.","items":[
+{"s":"She works very ___ .","o":["hard","hardly"],"a":"hard"},
+{"s":"I can ___ hear you. Speak up!","o":["hardly","hard"],"a":"hardly"},
+{"s":"The train arrived ___ .","o":["late","lately"],"a":"late"},
+{"s":"Have you seen any good films ___ ?","o":["lately","late"],"a":"lately"},
+{"s":"He drives too ___ .","o":["fast","fastly"],"a":"fast"},
+{"s":"I ___ know him. We've met once.","o":["hardly","hard"],"a":"hardly"}]},
+{"id":"101.3","t":"g","m":"Type it","ti":"hardly ever, hardly any","k":"Complete with hardly + ever / any / anything / anybody.","items":[
+{"s":"I ___ eat meat. Maybe once a year.","a":["hardly ever"]},
+{"s":"There's ___ milk left. Just a drop.","a":["hardly any"]},
+{"s":"___ came to the meeting. Only two people.","a":["hardly anybody","hardly anyone"]},
+{"s":"She said ___ all evening.","a":["hardly anything"]},
+{"s":"We ___ go to the cinema these days.","a":["hardly ever"]},
+{"s":"I had ___ sleep last night.","a":["hardly any"]}]}]},
+{"u":102,"ex":[
+{"id":"102.1","t":"c","m":"Quick pick","ti":"so or such?","k":"so + adjective/adverb. such + (a) + adjective + noun.","items":[
+{"s":"The film was ___ boring.","o":["so","such"],"a":"so"},
+{"s":"It was ___ a boring film.","o":["such","so"],"a":"such"},
+{"s":"They're ___ nice people.","o":["such","so"],"a":"such"},
+{"s":"I'm ___ tired I could sleep here.","o":["so","such"],"a":"so"},
+{"s":"She speaks ___ quickly!","o":["so","such"],"a":"so"},
+{"s":"We had ___ a good time.","o":["such","so"],"a":"such"}]},
+{"id":"102.2","t":"b","m":"Build it","ti":"so … that","k":"Join the ideas with so … that or such … that.","items":[
+{"c":"The coffee was very hot. I couldn't drink it.","h":"the coffee / was / so / hot / that / I / couldn't / drink / it","a":"The coffee was so hot that I couldn't drink it.","x":["such","very"]},
+{"c":"It was a lovely day. We went to the beach.","h":"it / was / such / a lovely day / that / we / went / to the beach","a":"It was such a lovely day that we went to the beach.","x":["so","very"]},
+{"c":"She was very tired. She fell asleep at once.","h":"she / was / so / tired / that / she / fell asleep / at once","a":"She was so tired that she fell asleep at once.","x":["such","too"]},
+{"c":"They are very good friends. They talk every day.","h":"they / are / such / good friends / that / they / talk / every day","a":"They are such good friends that they talk every day.","x":["so","very"]}]},
+{"id":"102.3","t":"g","m":"Type it","ti":"so or such?","k":"Type so or such (a).","items":[
+{"s":"It's ___ lovely weather today.","a":["such"]},
+{"s":"Don't be ___ silly!","a":["so"]},
+{"s":"He's ___ good cook.","a":["such a"]},
+{"s":"Why are you ___ angry?","a":["so"]},
+{"s":"I've never seen ___ big dog.","a":["such a"]},
+{"s":"There were ___ many people there.","a":["so"]}]}]},
+{"u":103,"ex":[
+{"id":"103.1","t":"c","m":"Quick pick","ti":"enough or too?","k":"too = more than you need. not … enough = less than you need. adjective + enough; enough + noun.","items":[
+{"s":"This bag is ___ heavy to carry.","o":["too","enough"],"a":"too"},
+{"s":"He's not old ___ to drive.","o":["enough","too"],"a":"enough"},
+{"s":"We don't have ___ chairs.","o":["enough","too"],"a":"enough"},
+{"s":"It's ___ cold to swim.","o":["too","enough"],"a":"too"},
+{"s":"Is the water warm ___ ?","o":["enough","too"],"a":"enough"},
+{"s":"There's ___ much sugar in this.","o":["too","enough"],"a":"too"}]},
+{"id":"103.2","t":"g","m":"Type it","ti":"Too or not enough","k":"Rewrite with too or (not) enough and the word in brackets.","items":[
+{"c":"The shirt is small. (big)","s":"The shirt isn't ___ .","a":["big enough"]},
+{"c":"I can't reach the shelf. (tall)","s":"I'm not ___ .","a":["tall enough"]},
+{"c":"I can't drink this tea. (hot)","s":"It's ___ .","a":["too hot"]},
+{"c":"We can't buy it. (money)","s":"We haven't got ___ .","a":["enough money"]},
+{"c":"He can't concentrate. (tired)","s":"He's ___ to concentrate.","a":["too tired"]},
+{"c":"You didn't work fast. (fast)","s":"You didn't work ___ .","a":["fast enough"]}]},
+{"id":"103.3","t":"b","m":"Build it","ti":"too … for … to","k":"Build the sentence.","items":[
+{"h":"this box / is / too / heavy / for me / to carry","a":"This box is too heavy for me to carry.","x":["enough","so"]},
+{"h":"the film / was / too / long / to watch / in one go","a":"The film was too long to watch in one go.","x":["enough","so"]},
+{"h":"is / it / warm / enough / to sit / outside?","a":"Is it warm enough to sit outside?","x":["too","so"]},
+{"h":"she / spoke / too / quickly / for us / to understand","a":"She spoke too quickly for us to understand.","x":["enough","so"]}]}]},
+{"u":104,"ex":[
+{"id":"104.1","t":"c","m":"Quick pick","ti":"quite, pretty, rather, fairly","k":"Pick the most natural word.","items":[
+{"s":"The test was ___ easy. I finished in ten minutes.","o":["quite","rather a"],"a":"quite"},
+{"s":"It's ___ cold today. Take a coat.","o":["rather","rather a"],"a":"rather"},
+{"s":"She's ___ good at tennis, but not great.","o":["fairly","fairly a"],"a":"fairly"},
+{"s":"It's ___ long way from here.","o":["quite a","quite"],"a":"quite a"},
+{"s":"I'm ___ sure you're right. (100%)","o":["quite","fairly"],"a":"quite"},
+{"s":"That's ___ good idea!","o":["a pretty","pretty a"],"a":"a pretty"}]},
+{"id":"104.2","t":"g","m":"Type it","ti":"quite = completely","k":"With words like sure, right, different, impossible, quite means 'completely'.","items":[
+{"s":"'Are you sure?' 'Yes, ___ sure.'","a":["quite"]},
+{"s":"You're ___ right. I was wrong.","a":["quite"]},
+{"s":"That's ___ impossible!","a":["quite"]},
+{"s":"I'm not ___ ready yet. Give me a minute.","a":["quite"]},
+{"s":"The two cities are ___ different.","a":["quite"]},
+{"s":"I ___ agree with you.","a":["quite","completely"]}]},
+{"id":"104.3","t":"c","m":"Quick pick","ti":"Strength","k":"Which word makes the sentence strongest?","items":[
+{"s":"The film was ___ good. I loved it!","o":["really","fairly"],"a":"really"},
+{"s":"The hotel was ___ nice, nothing special.","o":["fairly","extremely"],"a":"fairly"},
+{"s":"I was ___ tired. I could hardly stand.","o":["extremely","quite"],"a":"extremely"},
+{"s":"The food was ___ OK. I've had better.","o":["pretty","incredibly"],"a":"pretty"},
+{"s":"The view was ___ beautiful. Breathtaking!","o":["absolutely","fairly"],"a":"absolutely"},
+{"s":"It's ___ warm, but not hot.","o":["quite","absolutely"],"a":"quite"}]}]},
+{"u":105,"ex":[
+{"id":"105.1","t":"g","m":"Type it","ti":"Make it comparative","k":"Complete with the comparative form (-er or more).","items":[
+{"s":"My bag is ___ (heavy) than yours.","a":["heavier"]},
+{"s":"This chair is ___ (comfortable) than that one.","a":["more comfortable"]},
+{"s":"Trains are ___ (fast) than buses.","a":["faster"]},
+{"s":"Today is ___ (hot) than yesterday.","a":["hotter"]},
+{"s":"This exam was ___ (difficult) than the last one.","a":["more difficult"]},
+{"s":"Your English is getting ___ (good).","a":["better"]},
+{"s":"The weather is ___ (bad) than last week.","a":["worse"]},
+{"s":"She lives ___ (far) from school than me.","a":["farther","further"]}]},
+{"id":"105.2","t":"c","m":"Quick pick","ti":"-er or more?","k":"Pick the correct form.","items":[
+{"s":"It's ___ to go by bus.","o":["cheaper","more cheap"],"a":"cheaper"},
+{"s":"She's ___ than her brother.","o":["more careful","carefuller"],"a":"more careful"},
+{"s":"Could you speak ___ ?","o":["more slowly","slowlier"],"a":"more slowly"},
+{"s":"This box is ___ .","o":["bigger","more big"],"a":"bigger"},
+{"s":"The city is ___ than I expected.","o":["more expensive","expensiver"],"a":"more expensive"},
+{"s":"He's ___ than he used to be.","o":["happier","more happy"],"a":"happier"}]},
+{"id":"105.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct it.","items":[
+{"p":"My flat is ","u":"more small","q":" than yours.","a":["smaller"]},
+{"p":"She's ","u":"older","q":" than me."},
+{"p":"This film is ","u":"more good","q":" than the book.","a":["better"]},
+{"p":"Can you drive ","u":"more carefully","q":"?"},
+{"p":"It's ","u":"more hotter","q":" today.","a":["hotter"]},
+{"p":"Russian is ","u":"more difficult","q":" than Spanish."}]}]},
+{"u":106,"ex":[
+{"id":"106.1","t":"c","m":"Quick pick","ti":"much better, a bit cheaper","k":"much/a lot/far = big difference. a bit/a little/slightly = small difference.","items":[
+{"s":"I feel ___ better today. Almost perfect!","o":["much","very"],"a":"much"},
+{"s":"This one is ___ cheaper. Only one euro less.","o":["a bit","much"],"a":"a bit"},
+{"s":"The new phone is ___ faster than the old one.","o":["far","very"],"a":"far"},
+{"s":"Could you walk ___ slower? I can't keep up.","o":["a little","very"],"a":"a little"},
+{"s":"Is your mum ___ better?","o":["any","some"],"a":"any"},
+{"s":"It's ___ more expensive than I thought.","o":["a lot","very"],"a":"a lot"}]},
+{"id":"106.2","t":"g","m":"Type it","ti":"the … the …","k":"Use the + comparative, the + comparative.","items":[
+{"s":"The more you practise, ___ (good) you get.","a":["the better"]},
+{"s":"___ (soon) we leave, the sooner we'll arrive.","a":["the sooner"]},
+{"s":"The older I get, ___ (happy) I am.","a":["the happier"]},
+{"s":"___ (much) you eat, the fatter you get.","a":["the more"]},
+{"s":"The bigger the car, ___ (expensive) it is.","a":["the more expensive"]},
+{"s":"___ (early) we start, the earlier we finish.","a":["the earlier"]}]},
+{"id":"106.3","t":"g","m":"Type it","ti":"Getting bigger and bigger","k":"Use comparative + and + comparative.","items":[
+{"s":"It's getting ___ (cold).","a":["colder and colder"]},
+{"s":"The traffic is getting ___ (bad).","a":["worse and worse"]},
+{"s":"Prices are getting ___ (high).","a":["higher and higher"]},
+{"s":"Her English is getting ___ (good).","a":["better and better"]},
+{"s":"Phones are getting ___ (expensive).","a":["more and more expensive"]},
+{"s":"The days are getting ___ (long).","a":["longer and longer"]}]}]},
+{"u":107,"ex":[
+{"id":"107.1","t":"c","m":"Quick pick","ti":"as … as","k":"as + adjective + as = the same. not as … as = less.","items":[
+{"s":"I'm not as tall ___ my brother.","o":["as","than"],"a":"as"},
+{"s":"This film isn't as good ___ the first one.","o":["as","than"],"a":"as"},
+{"s":"She runs ___ fast as me.","o":["as","so"],"a":"as"},
+{"s":"I'm older ___ you.","o":["than","as"],"a":"than"},
+{"s":"Come as soon ___ you can.","o":["as","than"],"a":"as"},
+{"s":"It's twice as expensive ___ the other one.","o":["as","than"],"a":"as"}]},
+{"id":"107.2","t":"g","m":"Type it","ti":"Not as … as","k":"Rewrite with not as … as.","items":[
+{"c":"Tom is taller than Jim.","s":"Jim isn't as ___ as Tom.","a":["tall"]},
+{"c":"The train is faster than the bus.","s":"The bus isn't as ___ as the train.","a":["fast"]},
+{"c":"London is more expensive than Leeds.","s":"Leeds isn't as ___ as London.","a":["expensive"]},
+{"c":"Yesterday was hotter than today.","s":"Today isn't as ___ as yesterday.","a":["hot"]},
+{"c":"I've got more money than you.","s":"You haven't got as ___ money as me.","a":["much"]},
+{"c":"She has more friends than me.","s":"I don't have as ___ friends as her.","a":["many"]}]},
+{"id":"107.3","t":"c","m":"Quick pick","ti":"than me / than I am","k":"Pick the correct form.","items":[
+{"s":"She's a better driver than ___ .","o":["me","I'm"],"a":"me"},
+{"s":"He's older than ___ .","o":["I am","me am"],"a":"I am"},
+{"s":"You work harder than ___ .","o":["I do","me do"],"a":"I do"},
+{"s":"It's the same ___ yours.","o":["as","than"],"a":"as"},
+{"s":"His car is similar ___ mine.","o":["to","as"],"a":"to"},
+{"s":"My phone is different ___ yours.","o":["from","than as"],"a":"from"}]}]},
+{"u":108,"ex":[
+{"id":"108.1","t":"g","m":"Type it","ti":"The best ever","k":"Complete with the superlative form.","items":[
+{"s":"It's ___ (cold) day of the year.","a":["the coldest"]},
+{"s":"This is ___ (good) pizza in town.","a":["the best"]},
+{"s":"She's ___ (intelligent) person I know.","a":["the most intelligent"]},
+{"s":"That was ___ (bad) film I've ever seen.","a":["the worst"]},
+{"s":"Everest is ___ (high) mountain in the world.","a":["the highest"]},
+{"s":"It was ___ (happy) day of my life.","a":["the happiest"]},
+{"s":"This is ___ (expensive) restaurant here.","a":["the most expensive"]},
+{"s":"Who is ___ (old) person in your family?","a":["the oldest","the eldest"]}]},
+{"id":"108.2","t":"c","m":"Quick pick","ti":"in or of?","k":"the biggest in the world / in the class. the best of all / of the three.","items":[
+{"s":"It's the tallest building ___ the city.","o":["in","of"],"a":"in"},
+{"s":"She's the youngest ___ the three sisters.","o":["of","in"],"a":"of"},
+{"s":"He's the best player ___ the team.","o":["in","of"],"a":"in"},
+{"s":"This was the best day ___ the holiday.","o":["of","in"],"a":"of"},
+{"s":"It's the oldest university ___ Europe.","o":["in","of"],"a":"in"},
+{"s":"Which is the cheapest ___ these phones?","o":["of","in"],"a":"of"}]},
+{"id":"108.3","t":"b","m":"Build it","ti":"Ever","k":"Build a sentence with a superlative and ever.","items":[
+{"h":"it's / the best / book / I've / ever / read","a":"It's the best book I've ever read.","x":["better","read?"]},
+{"h":"that's / the funniest / thing / I've / ever / heard","a":"That's the funniest thing I've ever heard.","x":["funnier","most"]},
+{"h":"what's / the most / beautiful / place / you've / ever / seen?","a":"What's the most beautiful place you've ever seen?","x":["more","saw"]},
+{"h":"he's / the worst / driver / I've / ever / met","a":"He's the worst driver I've ever met.","x":["worse","baddest"]}]}]},
+{"u":109,"ex":[
+{"id":"109.1","t":"b","m":"Build it","ti":"Verb + object","k":"Don't put anything between the verb and its object. Build the sentence.","items":[
+{"h":"I / like / music / very much","a":"I like music very much.","x":["so","likes"]},
+{"h":"she / speaks / English / well","a":"She speaks English well.","x":["good","speak"]},
+{"h":"we / ate / pizza / last night","a":"We ate pizza last night.","x":["eat","yesterday"]},
+{"h":"he / plays / tennis / every Sunday","a":"He plays tennis every Sunday.","x":["play","on"]},
+{"h":"did / you / enjoy / the party?","a":"Did you enjoy the party?","x":["enjoyed","do"]}]},
+{"id":"109.2","t":"b","m":"Build it","ti":"Place before time","k":"Usually: place (where) before time (when).","items":[
+{"h":"she / goes / to work / every day","a":"She goes to work every day.","x":["at","on"]},
+{"h":"we / arrived / at the hotel / at midnight","a":"We arrived at the hotel at midnight.","x":["in","on"]},
+{"h":"I / was / born / in Kyiv / in 1995","a":"I was born in Kyiv in 1995.","x":["at","on"]},
+{"h":"they / stayed / at home / all weekend","a":"They stayed at home all weekend.","x":["in","on"]},
+{"h":"let's / meet / outside the cinema / at seven","a":"Let's meet outside the cinema at seven.","x":["in","on"]}]},
+{"id":"109.3","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part in the right order? If not, correct it.","items":[
+{"p":"I ","u":"like very much coffee","q":".","a":["like coffee very much"]},
+{"p":"She ","u":"opened the door slowly","q":"."},
+{"p":"We went ","u":"yesterday to the zoo","q":".","a":["to the zoo yesterday"]},
+{"p":"He ","u":"speaks very well French","q":".","a":["speaks french very well"]},
+{"p":"I've lived ","u":"here since 2020","q":"."},
+{"p":"Did you ","u":"watch last night the match","q":"?","a":["watch the match last night"]}]}]},
+{"u":110,"ex":[
+{"id":"110.1","t":"b","m":"Build it","ti":"Adverbs with the verb","k":"Words like always, never, often, also, just go before the main verb but after be.","items":[
+{"h":"I / always / get up / early","a":"I always get up early.","x":["am","never"]},
+{"h":"she / is / often / late","a":"She is often late.","x":["does","always"]},
+{"h":"we / have / never / been / to Rome","a":"We have never been to Rome.","x":["ever","did"]},
+{"h":"they / also / speak / German","a":"They also speak German.","x":["too","are"]},
+{"h":"I / can / usually / find / a seat","a":"I can usually find a seat.","x":["am","often"]}]},
+{"id":"110.2","t":"f","m":"Spot & fix","ti":"Right or wrong?","k":"Is the underlined part OK? If not, correct the order.","items":[
+{"p":"","u":"I go always","q":" to the gym on Mondays.","a":["i always go"]},
+{"p":"She ","u":"is always","q":" happy."},
+{"p":"We ","u":"never have","q":" seen snow.","a":["have never"]},
+{"p":"He ","u":"often plays","q":" tennis."},
+{"p":"I ","u":"also am","q":" a teacher.","a":["am also"]},
+{"p":"They ","u":"both live","q":" in Paris."}]},
+{"id":"110.3","t":"c","m":"Quick pick","ti":"Where does it go?","k":"Pick the correct order.","items":[
+{"s":"___ late for work.","o":["I'm never","I never am"],"a":"I'm never"},
+{"s":"___ the answer.","o":["She probably knows","She knows probably"],"a":"She probably knows"},
+{"s":"___ finished.","o":["I've just","I just have"],"a":"I've just"},
+{"s":"___ to Paris.","o":["We've all been","We all have been"],"a":"We've all been"},
+{"s":"___ tired after work.","o":["He's usually","He usually is"],"a":"He's usually"},
+{"s":"___ forget my keys.","o":["I sometimes","I forget sometimes"],"a":"I sometimes"}]}]}
+]}
