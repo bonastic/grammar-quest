@@ -1564,7 +1564,7 @@ upgrade();
 try { const raw = localStorage.getItem(LS); if (raw) { P = Object.assign(P, JSON.parse(raw)); upgrade(); } } catch {}
 renderHome();
 Store.init().then(ok => { if (ok && view.name==="home") renderHome(); else updateTop(); });
-(window.claude && typeof window.claude.use === "function" ? window.claude.use("tts").catch(()=>null) : Promise.resolve(null)).then(t => { tts = t || webTts(); });
+(window.claude && typeof window.claude.use === "function" ? window.claude.use("tts").catch(()=>null) : Promise.resolve(null)).then(t => { tts = t || (typeof webTts === "function" ? webTts() : null) || tts; });
 (window.claude && typeof window.claude.use === "function" ? window.claude.use("sample").catch(()=>null) : Promise.resolve(null)).then(s => { sampleFn = s; $("#ask-btn").hidden = !s; if (s && view.name==="hub") renderUnitHub(UNITS[view.u]); });
 
 </script>
@@ -1581,6 +1581,8 @@ function webTts(){
     speechSynthesis.speak(u);
   }) };
 }
+/* the boot code may ask for webTts() before this script exists, so switch it on here as well */
+if (!tts) tts = webTts();
 if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
 let installEvt = null;
