@@ -18,6 +18,9 @@ body{margin:0}
 img{max-width:100%}
 .backup{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--surface);border-radius:16px;padding:14px 16px;box-shadow:var(--shadow)}
 .backup p{margin:0;flex:1 1 260px;color:var(--muted);font-size:16px}
+.install{display:grid;gap:8px;background:var(--accent-soft);border-radius:18px;padding:16px 18px;font-size:18px}
+.install p{margin:0;color:var(--ink);font-size:17px}
+.install .btn{justify-self:start}
 </style>
 <style>
 /* Layout: sticky stats header, one centered play column (max 760px); item cards are the only framed objects. */
@@ -1580,9 +1583,20 @@ function webTts(){
 }
 if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+let installEvt = null;
+const standalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); installEvt = e; if (view.name === "home") renderHome(); });
+addEventListener("appinstalled", () => { installEvt = null; toast("Installed! Open Grammar Quest from your apps."); if (view.name === "home") renderHome(); });
+function installBar(){
+  if (standalone()) return "";
+  if (installEvt) return `<div class="install"><b>📲 Install Grammar Quest on this device</b><p>It gets its own icon and works without internet.</p><button class="btn primary" id="inst-btn">Install app</button></div>`;
+  return `<div class="install"><b>📲 Install Grammar Quest</b><p>Open this page in <b>Google Chrome</b>, then tap <b>⋮</b> (top right) → <b>Install app</b> or <b>Add to Home screen</b>. Other browsers (Samsung Internet, Yandex) have it under their menu as <b>Add page to → Home screen</b>.</p></div>`;
+}
 const _renderHome = renderHome;
 renderHome = function(){
   _renderHome();
+  $("#app").insertAdjacentHTML("afterbegin", installBar());
+  const ib = $("#inst-btn"); if (ib) ib.onclick = async () => { if (!installEvt) return; installEvt.prompt(); const c = await installEvt.userChoice.catch(() => null); installEvt = null; renderHome(); };
   $("#app").insertAdjacentHTML("beforeend", `<div class="backup"><p>Your progress is saved on this tablet. Save a backup file now and then, so you never lose it.</p>
     <button class="btn sm" id="bk-save">Save backup</button><label class="btn sm" for="bk-file" style="cursor:pointer">Restore backup</label><input type="file" id="bk-file" accept="application/json,.json" hidden></div>`);
   $("#bk-save").onclick = () => {
