@@ -290,6 +290,13 @@ main{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px
 .chatlog{display:grid;gap:8px;max-height:46vh;overflow:auto}
 .chatlog .bub{font-size:17px;line-height:1.55}
 #askq{font:inherit;font-size:18px;width:100%;border:2px solid var(--line);border-radius:12px;padding:10px;background:var(--surface);color:var(--ink);resize:vertical}
+.rule{background:var(--surface);border-radius:22px;padding:20px 22px;box-shadow:var(--shadow);display:grid;gap:12px;border-left:0}
+.rule-h{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.rule ul{margin:0;padding-left:22px;display:grid;gap:8px;font-size:19px;line-height:1.55}
+.rule-ex{display:grid;gap:6px;background:var(--accent-soft);border-radius:14px;padding:12px 16px}
+.rule-ex p{margin:0;font-size:20px;font-weight:700}
+.rule-ru summary{cursor:pointer;font-weight:800;color:var(--accent)}
+.rule-ru p{margin:8px 0 0;font-size:18px}
 @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-9px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(4px)}}
 @keyframes glow{0%{box-shadow:0 0 0 0 var(--ok)}100%{box-shadow:0 0 0 14px transparent}}
 @keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.3)}100%{transform:scale(1)}}
@@ -610,6 +617,8 @@ SYL.forEach(([sec, list]) => list.forEach(([u,t,g]) => UNITS[u] = {u, kind:"g", 
 { let n = 0; VSYL.forEach(([sec, list]) => list.forEach(t => { n++; UNITS["V"+n] = {u:"V"+n, n, kind:"v", label:"Vocabulary "+n, short:"V"+n, title:t, tag:"12 new words", sec, ex:null, words:null}; })); }
 INLINE.forEach(x => UNITS[x.u].ex = x.ex);
 const WORDS = {};
+let RULES = null;
+function loadRules(){ if (!RULES) RULES = fetch("data/rules-1.json").then(r => r.json()).catch(e => { RULES = null; throw e; }); return RULES; }
 /* one lesson a day: grammar and vocabulary take turns */
 const SEQ = []; for (let i = 1; i <= TOTAL_G; i++){ SEQ.push(i); if (i <= TOTAL_V) SEQ.push("V"+i); }
 
@@ -722,7 +731,7 @@ function markDay(){ if (!P.days.includes(today())) P.days.push(today()); }
 /* ---------- stats ---------- */
 function exStats(ex){ let ok=0,bad=0,done=0; ex.items.forEach((_,i)=>{const r=P.items[exKey(ex,i)]; if(!r)return; if(r.r==="ok")ok++; else bad++; if(r.done)done++;}); return {ok,bad,done,total:ex.items.length,complete:done===ex.items.length}; }
 function unitStats(u){ return (u.ex||[]).reduce((a,ex)=>{const s=exStats(ex);a.ok+=s.ok;a.bad+=s.bad;a.done+=s.done;a.total+=s.total;a.exDone+=s.complete?1:0;return a;},{ok:0,bad:0,done:0,total:0,exDone:0}); }
-function saveProg(u){ if (u.kind==="g") return; const s = unitStats(u); P.units[u.u] = Object.assign(P.units[u.u]||{}, {prog: s.total ? s.done/s.total : 0}); }
+function saveProg(u){ const s = unitStats(u); P.units[u.u] = Object.assign(P.units[u.u]||{}, {prog: s.total ? s.done/s.total : 0}); }
 function starsFor(ok,total){ const p = total? ok/total : 0; return p>=.9?3:p>=.7?2:1; }
 function medalFor(p){ return p>=.9?"gold":p>=.75?"silver":"bronze"; }
 function streak(){ const set = new Set(P.days); let n=0; const d = new Date(); if(!set.has(today())) d.setDate(d.getDate()-1);
@@ -742,13 +751,12 @@ function updateTop(){
   $("#m-course").textContent = Math.round(ud/TOTAL_UNITS*100)+"%"; $("#m-course-n").textContent = ud+"/"+TOTAL_UNITS+" lessons"; $("#b-course").style.width = (ud/TOTAL_UNITS*100)+"%";
   const u = view.u ? UNITS[view.u] : todayUnit();
   let done = 0, total = 0;
-  if (u.kind==="g"){ const bs = bookStats(u.u); done = bs.done; total = bs.total; }
-  else if (u.ex){ const us = unitStats(u); done = us.done; total = us.total; }
+  if (u.ex){ const us = unitStats(u); done = us.done; total = us.total; }
   const up = total ? done/total : ((P.units[u.u]||{}).prog || 0);
   $("#m-unit-lbl").textContent = u.label; $("#m-unit").textContent = Math.round(up*100)+"%"; $("#m-unit-n").textContent = total ? done+"/"+total : ""; $("#b-unit").style.width = (up*100)+"%";
   let ok=0, bad=0; Object.values(P.items).forEach(r => r.r==="ok" ? ok++ : bad++); Object.values(P.book||{}).forEach(r => { if (r.r==="ok") ok++; else if (r.r==="miss") bad++; });
   const tot = ok+bad;
-  $("#m-ok").textContent = ok; $("#m-bad").textContent = bad; $("#m-acc").textContent = tot? Math.round(ok/tot*100)+"%" : "–";
+  $("#m-ok").textContent = ok; $("#m-bad").textContent = bad; $("#m-acc").textContent = tot? Math.round(ok/tot*100)+"% accuracy" : "–";
   $("#b-ok").style.width = (tot? ok/tot*100 : 0)+"%"; $("#b-bad").style.width = (tot? bad/tot*100 : 0)+"%";
   $("#xp").textContent = P.xp; $("#streak").textContent = streak();
   const dc = dueCount(); $("#due").textContent = dc; $("#due-btn").classList.toggle("hot", dc>0);
@@ -826,7 +834,7 @@ function renderHome(){
   const kind = tu.kind==="v" ? "Vocabulary" : "Grammar";
   const s2 = allDone ? step(2,"done","Lessons","You've finished both books!","","")
     : doneToday ? step(2,"done","Today's lesson done", `Next up: ${esc(tu.label)}, ${esc(tu.title)}. Come back tomorrow, or keep going now.`, "Start anyway", "go-unit")
-    : step(2, dc ? "wait" : "next", `${kind} · ${esc(tu.label)}: ${esc(tu.title)}`, `${tu.kind==="v" ? "Meet 12 words, then play 3 word games" : (tu.tag ? esc(tu.tag)+" · " : "") + "exercises from your book"} · about 15 minutes${tp ? " · "+Math.round(tp*100)+"% done" : ""}`, tp ? "Continue" : "Start", "go-unit");
+    : step(2, dc ? "wait" : "next", `${kind} · ${esc(tu.label)}: ${esc(tu.title)}`, `${tu.kind==="v" ? "Meet 12 words, then play 3 word games" : (tu.tag ? esc(tu.tag)+" · " : "") + "rule card and 3–4 exercises"} · about 15 minutes${tp ? " · "+Math.round(tp*100)+"% done" : ""}`, tp ? "Continue" : "Start", "go-unit");
   const tile = k => { const U = UNITS[k], d = P.units[k] || {}, isT = k === tu.u && !allDone;
     return `<button class="utile${d.done?" done":""}${isT?" today":""}" data-unit="${k}" title="${esc(U.title)}">
       <span class="un">${esc(U.short)}</span><span class="ut">${esc(U.title)}</span>
@@ -852,7 +860,7 @@ function renderHome(){
   </div>
   <div class="tabs" role="tablist"><button role="tab" class="tab${tab==="g"?" on":""}" data-tab="g" aria-selected="${tab==="g"}">Grammar · 145 units</button><button role="tab" class="tab${tab==="v"?" on":""}" data-tab="v" aria-selected="${tab==="v"}">Vocabulary · 100 lessons</button></div>
   <div id="map">${tab==="g" ? gMap() : vMap()}</div>
-  <p class="note">Grammar follows the 145 units of <i>English Grammar in Use</i> (5th ed.); vocabulary follows the 100 topics of <i>English Vocabulary in Use</i> (pre-intermediate &amp; intermediate). Same topics and order; sentences, definitions and exercises are written for this course.</p>`;
+  <p class="note">Grammar follows the 145 units of <i>English Grammar in Use</i> (5th ed.); vocabulary follows the 100 topics of <i>English Vocabulary in Use</i> (pre-intermediate &amp; intermediate). Same topics and order. Rule cards, sentences, definitions and exercises are written for this course, so you don't need the books.</p>`;
   const b = id => document.getElementById(id);
   if (b("go-rev")) b("go-rev").onclick = startReview;
   if (b("go-unit")) b("go-unit").onclick = () => openUnit(tu.u);
@@ -902,12 +910,12 @@ function renderPlay(){
   const u = UNITS[view.u], ex = u.ex[view.ei];
   const bankUsed = new Set(ex.items.map((it,i)=>{ const r = P.items[exKey(ex,i)]; return r && r.done && ex.bank && ex.type==="gap" ? bankWord(ex,it) : null; }).filter(Boolean));
   $("#app").innerHTML = `
-  <div class="crumbs"><button class="link" id="back">← All units</button><span>${esc(u.label)} · ${esc(u.title)}</span><span>· Exercise ${view.ei+1} of ${u.ex.length}</span></div>
+  <div class="crumbs"><button class="link" id="back">← ${u.kind==="g" ? "Unit "+u.u+" · the rule" : "All units"}</button><span>${esc(u.label)} · ${esc(u.title)}</span><span>· Exercise ${view.ei+1} of ${u.ex.length}</span></div>
   ${exHead(ex)}
   ${ex.bank && ex.type==="gap" ? `<div class="bank" id="bank">${ex.bank.map(w=>`<button data-w="${esc(w)}" class="${bankUsed.has(w)?"used":""}">${esc(w)}</button>`).join("")}</div>` : ""}
   ${ex.type==="match" ? "" : `<div class="dots" id="dots">${ex.items.map((_,i)=>`<i data-i="${i}"></i>`).join("")}</div>`}
   <div id="stage"></div>`;
-  $("#back").onclick = renderHome;
+  $("#back").onclick = () => u.kind==="g" ? renderUnitHub(u) : renderHome();
   if (ex.type==="match") renderMatch(ex); else renderItem();
   updateTop();
 }
@@ -1140,7 +1148,7 @@ function renderMatch(ex){
 function exDone(ex){
   if (document.querySelector(".ov")) return;
   const u = UNITS[view.u], s = exStats(ex), stars = starsFor(s.ok, s.total);
-  const unitFinished = u.kind==="v" && u.ex.every(e => exStats(e).complete);
+  const unitFinished = u.ex.every(e => exStats(e).complete);
   const bonus = stars*5; P.xp += bonus; Store.save(); updateTop();
   sfx.done(); confetti(innerWidth/2, innerHeight*.35, 120);
   const nextEx = u.ex.find(e=>!exStats(e).complete);
@@ -1331,25 +1339,36 @@ function bookExStats(id, n){
 }
 function saveBookProg(u){ const s = bookStats(u); P.units[u] = Object.assign(P.units[u]||{}, {prog: s.total ? s.done/s.total : 0}); }
 
-function renderUnitHub(u){
+function ruleCard(u, r){
+  return `<section class="rule" aria-label="The rule">
+    <div class="rule-h"><span class="mech">The rule</span>${sayBtn(r.e.join(" "))}</div>
+    <ul>${r.p.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    <div class="rule-ex">${r.e.map(x => `<p>${esc(x)}</p>`).join("")}</div>
+    <details class="rule-ru"><summary>По-русски</summary><p>${esc(r.ru)}</p></details>
+    ${sampleFn ? `<div class="actions"><button class="aib" data-ask="unit">💬 Ask Claude about this rule</button></div>` : ""}
+    ${aiBar({topic: u.label+": "+u.title+(u.tag ? " ("+u.tag+")" : ""), sentence: r.e[0]})}
+  </section>`;
+}
+async function renderUnitHub(u){
   view = {name:"hub", u:u.u}; combo = 0;
-  const B = BOOK[u.u] || [], bs = bookStats(u.u), d = P.units[u.u] || {}, page = u.u*2;
-  const prac = u.ex ? u.ex.map((ex,i) => { const es = exStats(ex); return `<div class="hrow"><span class="hid">${ex.id}</span><span class="ht">${esc(ex.title)}</span><span class="hs">${es.complete ? starRow(starsFor(es.ok,es.total),14) : es.done ? es.done+"/"+es.total : ""}</span><button class="btn sm" data-prac="${i}">${es.complete ? "Redo" : es.done ? "Continue" : "Play"}</button></div>`; }).join("") : "";
+  let r = null; try { r = (await loadRules())[u.u]; } catch {}
+  if (view.name !== "hub" || view.u !== u.u) return;
+  const s = unitStats(u), d = P.units[u.u] || {};
+  const nextI = u.ex.findIndex(ex => !exStats(ex).complete);
   $("#app").innerHTML = `
   <div class="crumbs"><button class="link" id="back">← All units</button></div>
   <section class="hero">
     <div class="deco" aria-hidden="true">${u.u}</div>
-    <div class="eyebrow">Grammar · Unit ${u.u} · book pages ${page}–${page+1}</div>
+    <div class="eyebrow">Grammar · Unit ${u.u}</div>
     <h1>${esc(u.title)}</h1>
-    <p>${u.tag ? "<b>"+esc(u.tag)+"</b> · " : ""}Read the explanation on page ${page}, then do the exercises on page ${page+1} and mark each answer against the Key to Exercises at the back of the book.</p>
-    <div class="actions">${d.done ? medalSvg(d.medal,"medal-sm") : ""}<span class="note">${bs.done}/${bs.total} items marked${bs.ok+bs.bad ? " · "+Math.round(bs.ok/(bs.ok+bs.bad)*100)+"% right" : ""}</span>${sampleFn ? `<button class="btn sm" data-ask="unit">💬 Ask Claude about this unit</button>` : ""}</div>
+    ${u.tag ? `<p><b>${esc(u.tag)}</b></p>` : ""}
+    <div class="actions">${d.done ? medalSvg(d.medal,"medal-sm") : ""}<span class="note">${s.done}/${s.total} questions${s.ok+s.bad ? " · "+Math.round(s.ok/(s.ok+s.bad)*100)+"% right first time" : ""}</span></div>
   </section>
-  <h2 style="font-size:22px">Exercises from the book</h2>
-  <div class="hlist">${B.map(([id,n],i) => { const s = bookExStats(id,n); return `<div class="hrow"><span class="hid">${id}</span><span class="ht">${n} items</span><span class="hs">${s.complete ? starRow(starsFor(s.ok, s.ok+s.bad || 1),14) : s.done ? s.done+"/"+n : ""}</span><button class="btn sm${!s.complete && B.findIndex(([x,m])=>!bookExStats(x,m).complete)===i ? " primary" : ""}" data-bex="${i}">${s.complete ? "Review" : s.done ? "Continue" : "Start"}</button></div>`; }).join("")}</div>
-  ${prac ? `<h2 style="font-size:22px">Extra practice</h2><p class="note">Optional games on the same grammar, written for this course. They don't count towards the unit medal.</p><div class="hlist">${prac}</div>` : ""}`;
+  ${r ? ruleCard(u, r) : ""}
+  <h2 style="font-size:22px">Exercises</h2>
+  <div class="hlist">${u.ex.map((ex,i) => { const es = exStats(ex); return `<div class="hrow"><span class="hid">${ex.id}</span><span class="ht">${esc(ex.title)}</span><span class="hs">${es.complete ? starRow(starsFor(es.ok,es.total),14) : es.done ? es.done+"/"+es.total : ""}</span><button class="btn sm${i===nextI ? " primary" : ""}" data-prac="${i}">${es.complete ? "Redo" : es.done ? "Continue" : "Start"}</button></div>`; }).join("")}</div>`;
   $("#back").onclick = renderHome;
-  document.querySelectorAll("[data-bex]").forEach(b => b.onclick = () => renderBookEx(u.u, +b.dataset.bex));
-  document.querySelectorAll("[data-prac]").forEach(b => b.onclick = () => { const i = +b.dataset.prac, ex = u.ex[i]; if (exStats(ex).complete) { ex.items.forEach((_,k)=>delete P.items[exKey(ex,k)]); Store.save(); } openEx(u.u, i); });
+  document.querySelectorAll("[data-prac]").forEach(b => b.onclick = () => { const i = +b.dataset.prac, ex = u.ex[i]; if (exStats(ex).complete) { ex.items.forEach((_,k)=>delete P.items[exKey(ex,k)]); saveProg(u); Store.save(); } openEx(u.u, i); });
   updateTop(); scrollTo(0,0);
 }
 
